@@ -14,11 +14,31 @@
 ### 1. Клонирование репозитория
 
 ```bash
-git clone https://github.com/USERNAME/imbalanced-data-coursework.git
+git clone https://github.com/ivanturik/imbalanced-data-coursework.git
 cd imbalanced-data-coursework
 ```
 
-Вместо `USERNAME` нужно указать имя пользователя GitHub.
+### 2. Скачивание данных
+
+Наборы данных не хранятся напрямую в репозитории, так как один из файлов превышает лимит GitHub на размер файла.
+
+Полный архив с датасетами доступен во вкладке **Releases**:
+
+```text
+https://github.com/ivanturik/imbalanced-data-coursework/releases/latest
+```
+
+Необходимо скачать архив `data.zip` из релиза **All datasets** и распаковать его в корень проекта так, чтобы получилась структура:
+
+```text
+imbalanced-data-coursework/
+├── data/
+│   ├── creditcard.csv
+│   └── ...
+├── imbalanced-data.ipynb
+├── requirements.txt
+└── README.md
+```
 
 ---
 
@@ -142,10 +162,12 @@ Kernel → Restart Kernel and Run All Cells
 .
 ├── imbalanced-data.ipynb        # основной notebook с экспериментами
 ├── requirements.txt             # список зависимостей Python
-├── data/                        # используемые реальные наборы данных
+├── data/
+│   └── .gitkeep                 # пустая папка для распаковки данных
 ├── results/
 │   ├── figures/                 # графики, heatmap и матрицы ошибок
 │   └── tables/                  # итоговые таблицы с результатами
+├── .gitignore
 └── README.md
 ```
 
@@ -166,7 +188,7 @@ Kernel → Restart Kernel and Run All Cells
 В работе используются два типа данных:
 
 1. **Синтетические данные**, генерируемые внутри notebook.
-2. **Реальные наборы данных**, размещённые в папке `data/`.
+2. **Реальные наборы данных**, скачиваемые отдельным архивом `data.zip` из раздела Releases.
 
 Синтетические данные создаются с разными параметрами:
 
@@ -280,3 +302,5 @@ results/tables/
 - `openpyxl`.
 
 Полный список зависимостей находится в файле `requirements.txt`.
+
+---
