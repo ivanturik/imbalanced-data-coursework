@@ -1,0 +1,2 @@
+n_samples,n_features,n_informative,n_redundant,weights,flip_y,random_state,adv_seeds,n_estimators_demo,n_estimators_default,n_estimators_real,train_size,test_size,train_class0,train_class1,train_IR,test_class0,test_class1,test_IR
+10000,20,15,5,"[0.9, 0.1]",0.0,42,"[0, 1, 2]",200,100,100,7000,3000,6300,700,9.0,2700,300,9.0

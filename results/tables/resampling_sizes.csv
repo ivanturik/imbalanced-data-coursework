@@ -1,0 +1,9 @@
+Method,Train size (before),Train size (after),Class 0 (after),Class 1 (after),IR (after)
+Original,7000,7000,6300,700,9.0
+Random Oversampling,7000,12600,6300,6300,1.0
+Random Undersampling,7000,1400,700,700,1.0
+SMOTE,7000,12600,6300,6300,1.0
+Borderline-SMOTE,7000,12600,6300,6300,1.0
+ADASYN,7000,12568,6300,6268,1.0051
+SMOTE-ENN,7000,12320,6026,6294,0.9574
+SMOTE-Tomek,7000,12598,6299,6299,1.0

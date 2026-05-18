@@ -1,0 +1,1 @@
+dataset,scenario,experiment,ir,seed,sampling_strategy,train_minority_majority_ratio_before,train_ir_actual,k_neighbors,method,status,threshold,accuracy,balanced_accuracy,precision,recall,f1,specificity,g_mean,mcc,tn,fp,fn,tp,roc_auc,pr_auc

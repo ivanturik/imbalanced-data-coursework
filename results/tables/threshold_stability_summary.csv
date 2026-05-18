@@ -1,0 +1,1047 @@
+dataset,scenario,method,strategy_group,strategy,mean,std,min,max
+AID362 PubChem Bioassay,threshold_optimization,ADASYN + RF,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+AID362 PubChem Bioassay,threshold_optimization,ADASYN + RF,ghost,ghost_f1,0.25,0.02645751311064591,0.23,0.28
+AID362 PubChem Bioassay,threshold_optimization,ADASYN + RF,ghost,ghost_g_mean,0.25,0.02645751311064591,0.23,0.28
+AID362 PubChem Bioassay,threshold_optimization,ADASYN + RF,ghost,ghost_kappa,0.25,0.02645751311064591,0.23,0.28
+AID362 PubChem Bioassay,threshold_optimization,ADASYN + RF,ghost,ghost_mcc,0.25,0.02645751311064591,0.23,0.28
+AID362 PubChem Bioassay,threshold_optimization,ADASYN + RF,ghost,ghost_youden,0.25,0.02645751311064591,0.23,0.28
+AID362 PubChem Bioassay,threshold_optimization,ADASYN + RF,train_optimized,train_best_f1,0.34,0.04582575694955839,0.29000000000000004,0.38
+AID362 PubChem Bioassay,threshold_optimization,ADASYN + RF,train_optimized,train_best_g_mean,0.34,0.04582575694955839,0.29000000000000004,0.38
+AID362 PubChem Bioassay,threshold_optimization,ADASYN + RF,train_optimized,train_best_mcc,0.34,0.04582575694955839,0.29000000000000004,0.38
+AID362 PubChem Bioassay,threshold_optimization,ADASYN + RF,train_optimized,train_best_youden,0.34,0.04582575694955839,0.29000000000000004,0.38
+AID362 PubChem Bioassay,threshold_optimization,ADASYN + RF,validation_optimized,validation_best_f1,0.18666666666666668,0.07023769168568493,0.12,0.26
+AID362 PubChem Bioassay,threshold_optimization,ADASYN + RF,validation_optimized,validation_best_g_mean,0.02666666666666667,0.02081665999466133,0.01,0.05
+AID362 PubChem Bioassay,threshold_optimization,ADASYN + RF,validation_optimized,validation_best_mcc,0.43333333333333335,0.22501851775650225,0.18000000000000002,0.61
+AID362 PubChem Bioassay,threshold_optimization,ADASYN + RF,validation_optimized,validation_best_youden,0.02666666666666667,0.02081665999466133,0.01,0.05
+AID362 PubChem Bioassay,threshold_optimization,Balanced Bagging,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+AID362 PubChem Bioassay,threshold_optimization,Balanced Bagging,ghost,ghost_f1,0.7966666666666667,0.051316014394468853,0.74,0.84
+AID362 PubChem Bioassay,threshold_optimization,Balanced Bagging,ghost,ghost_g_mean,0.6066666666666666,0.03511884584284248,0.57,0.64
+AID362 PubChem Bioassay,threshold_optimization,Balanced Bagging,ghost,ghost_kappa,0.8066666666666666,0.03511884584284246,0.77,0.84
+AID362 PubChem Bioassay,threshold_optimization,Balanced Bagging,ghost,ghost_mcc,0.7966666666666667,0.051316014394468853,0.74,0.84
+AID362 PubChem Bioassay,threshold_optimization,Balanced Bagging,ghost,ghost_youden,0.6066666666666666,0.03511884584284248,0.57,0.64
+AID362 PubChem Bioassay,threshold_optimization,Balanced Bagging,train_optimized,train_best_f1,0.8066666666666666,0.03511884584284248,0.77,0.8400000000000001
+AID362 PubChem Bioassay,threshold_optimization,Balanced Bagging,train_optimized,train_best_g_mean,0.5966666666666667,0.023094010767584956,0.5700000000000001,0.61
+AID362 PubChem Bioassay,threshold_optimization,Balanced Bagging,train_optimized,train_best_mcc,0.7966666666666667,0.051316014394468874,0.74,0.8400000000000001
+AID362 PubChem Bioassay,threshold_optimization,Balanced Bagging,train_optimized,train_best_youden,0.5966666666666667,0.023094010767584956,0.5700000000000001,0.61
+AID362 PubChem Bioassay,threshold_optimization,Balanced Bagging,validation_optimized,validation_best_f1,0.77,0.06999999999999995,0.7000000000000001,0.8400000000000001
+AID362 PubChem Bioassay,threshold_optimization,Balanced Bagging,validation_optimized,validation_best_g_mean,0.48666666666666664,0.13650396819628846,0.34,0.61
+AID362 PubChem Bioassay,threshold_optimization,Balanced Bagging,validation_optimized,validation_best_mcc,0.7266666666666667,0.05131601439446886,0.67,0.77
+AID362 PubChem Bioassay,threshold_optimization,Balanced Bagging,validation_optimized,validation_best_youden,0.4533333333333333,0.19139836293274123,0.24000000000000002,0.61
+AID362 PubChem Bioassay,threshold_optimization,Balanced Random Forest,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+AID362 PubChem Bioassay,threshold_optimization,Balanced Random Forest,ghost,ghost_f1,0.81,0.0,0.81,0.81
+AID362 PubChem Bioassay,threshold_optimization,Balanced Random Forest,ghost,ghost_g_mean,0.6566666666666666,0.040414518843273836,0.62,0.7
+AID362 PubChem Bioassay,threshold_optimization,Balanced Random Forest,ghost,ghost_kappa,0.81,0.0,0.81,0.81
+AID362 PubChem Bioassay,threshold_optimization,Balanced Random Forest,ghost,ghost_mcc,0.81,0.0,0.81,0.81
+AID362 PubChem Bioassay,threshold_optimization,Balanced Random Forest,ghost,ghost_youden,0.6566666666666666,0.040414518843273836,0.62,0.7
+AID362 PubChem Bioassay,threshold_optimization,Balanced Random Forest,train_optimized,train_best_f1,0.8166666666666668,0.0057735026918962545,0.81,0.8200000000000001
+AID362 PubChem Bioassay,threshold_optimization,Balanced Random Forest,train_optimized,train_best_g_mean,0.64,0.036055512754639925,0.61,0.68
+AID362 PubChem Bioassay,threshold_optimization,Balanced Random Forest,train_optimized,train_best_mcc,0.8166666666666668,0.0057735026918962545,0.81,0.8200000000000001
+AID362 PubChem Bioassay,threshold_optimization,Balanced Random Forest,train_optimized,train_best_youden,0.64,0.036055512754639925,0.61,0.68
+AID362 PubChem Bioassay,threshold_optimization,Balanced Random Forest,validation_optimized,validation_best_f1,0.7000000000000001,0.010000000000000009,0.6900000000000001,0.7100000000000001
+AID362 PubChem Bioassay,threshold_optimization,Balanced Random Forest,validation_optimized,validation_best_g_mean,0.4566666666666667,0.07234178138070234,0.41000000000000003,0.54
+AID362 PubChem Bioassay,threshold_optimization,Balanced Random Forest,validation_optimized,validation_best_mcc,0.6966666666666668,0.11060440015358043,0.5800000000000001,0.8
+AID362 PubChem Bioassay,threshold_optimization,Balanced Random Forest,validation_optimized,validation_best_youden,0.39666666666666667,0.1504437879519568,0.24000000000000002,0.54
+AID362 PubChem Bioassay,threshold_optimization,Baseline RF,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+AID362 PubChem Bioassay,threshold_optimization,Baseline RF,ghost,ghost_f1,0.21333333333333335,0.015275252316519463,0.2,0.23
+AID362 PubChem Bioassay,threshold_optimization,Baseline RF,ghost,ghost_g_mean,0.21333333333333335,0.015275252316519463,0.2,0.23
+AID362 PubChem Bioassay,threshold_optimization,Baseline RF,ghost,ghost_kappa,0.21333333333333335,0.015275252316519463,0.2,0.23
+AID362 PubChem Bioassay,threshold_optimization,Baseline RF,ghost,ghost_mcc,0.21333333333333335,0.015275252316519463,0.2,0.23
+AID362 PubChem Bioassay,threshold_optimization,Baseline RF,ghost,ghost_youden,0.21333333333333335,0.015275252316519463,0.2,0.23
+AID362 PubChem Bioassay,threshold_optimization,Baseline RF,train_optimized,train_best_f1,0.2833333333333334,0.04041451884327381,0.24000000000000002,0.32
+AID362 PubChem Bioassay,threshold_optimization,Baseline RF,train_optimized,train_best_g_mean,0.2833333333333334,0.04041451884327381,0.24000000000000002,0.32
+AID362 PubChem Bioassay,threshold_optimization,Baseline RF,train_optimized,train_best_mcc,0.2833333333333334,0.04041451884327381,0.24000000000000002,0.32
+AID362 PubChem Bioassay,threshold_optimization,Baseline RF,train_optimized,train_best_youden,0.2833333333333334,0.04041451884327381,0.24000000000000002,0.32
+AID362 PubChem Bioassay,threshold_optimization,Baseline RF,validation_optimized,validation_best_f1,0.21333333333333337,0.13051181300301262,0.11,0.36000000000000004
+AID362 PubChem Bioassay,threshold_optimization,Baseline RF,validation_optimized,validation_best_g_mean,0.03,0.017320508075688777,0.02,0.05
+AID362 PubChem Bioassay,threshold_optimization,Baseline RF,validation_optimized,validation_best_mcc,0.47000000000000003,0.1212435565298214,0.36000000000000004,0.6
+AID362 PubChem Bioassay,threshold_optimization,Baseline RF,validation_optimized,validation_best_youden,0.03,0.017320508075688777,0.02,0.05
+AID362 PubChem Bioassay,threshold_optimization,Borderline-SMOTE + RF,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+AID362 PubChem Bioassay,threshold_optimization,Borderline-SMOTE + RF,ghost,ghost_f1,0.2333333333333333,0.02886751345948128,0.2,0.25
+AID362 PubChem Bioassay,threshold_optimization,Borderline-SMOTE + RF,ghost,ghost_g_mean,0.2333333333333333,0.02886751345948128,0.2,0.25
+AID362 PubChem Bioassay,threshold_optimization,Borderline-SMOTE + RF,ghost,ghost_kappa,0.2333333333333333,0.02886751345948128,0.2,0.25
+AID362 PubChem Bioassay,threshold_optimization,Borderline-SMOTE + RF,ghost,ghost_mcc,0.2333333333333333,0.02886751345948128,0.2,0.25
+AID362 PubChem Bioassay,threshold_optimization,Borderline-SMOTE + RF,ghost,ghost_youden,0.2333333333333333,0.02886751345948128,0.2,0.25
+AID362 PubChem Bioassay,threshold_optimization,Borderline-SMOTE + RF,train_optimized,train_best_f1,0.32,0.06928203230275509,0.28,0.4
+AID362 PubChem Bioassay,threshold_optimization,Borderline-SMOTE + RF,train_optimized,train_best_g_mean,0.32,0.06928203230275509,0.28,0.4
+AID362 PubChem Bioassay,threshold_optimization,Borderline-SMOTE + RF,train_optimized,train_best_mcc,0.32,0.06928203230275509,0.28,0.4
+AID362 PubChem Bioassay,threshold_optimization,Borderline-SMOTE + RF,train_optimized,train_best_youden,0.32,0.06928203230275509,0.28,0.4
+AID362 PubChem Bioassay,threshold_optimization,Borderline-SMOTE + RF,validation_optimized,validation_best_f1,0.3,0.05567764362830024,0.24000000000000002,0.35000000000000003
+AID362 PubChem Bioassay,threshold_optimization,Borderline-SMOTE + RF,validation_optimized,validation_best_g_mean,0.049999999999999996,0.04582575694955839,0.01,0.09999999999999999
+AID362 PubChem Bioassay,threshold_optimization,Borderline-SMOTE + RF,validation_optimized,validation_best_mcc,0.38000000000000006,0.15716233645501712,0.24000000000000002,0.55
+AID362 PubChem Bioassay,threshold_optimization,Borderline-SMOTE + RF,validation_optimized,validation_best_youden,0.049999999999999996,0.04582575694955839,0.01,0.09999999999999999
+AID362 PubChem Bioassay,threshold_optimization,Class weight LogisticRegression,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+AID362 PubChem Bioassay,threshold_optimization,Class weight LogisticRegression,ghost,ghost_f1,0.9366666666666666,0.0208166599946613,0.92,0.96
+AID362 PubChem Bioassay,threshold_optimization,Class weight LogisticRegression,ghost,ghost_g_mean,0.6066666666666667,0.07505553499465133,0.53,0.68
+AID362 PubChem Bioassay,threshold_optimization,Class weight LogisticRegression,ghost,ghost_kappa,0.9366666666666666,0.0208166599946613,0.92,0.96
+AID362 PubChem Bioassay,threshold_optimization,Class weight LogisticRegression,ghost,ghost_mcc,0.77,0.030000000000000027,0.74,0.8
+AID362 PubChem Bioassay,threshold_optimization,Class weight LogisticRegression,ghost,ghost_youden,0.6066666666666667,0.07505553499465133,0.53,0.68
+AID362 PubChem Bioassay,threshold_optimization,Class weight LogisticRegression,train_optimized,train_best_f1,0.92,0.0,0.92,0.92
+AID362 PubChem Bioassay,threshold_optimization,Class weight LogisticRegression,train_optimized,train_best_g_mean,0.44,0.0,0.44,0.44
+AID362 PubChem Bioassay,threshold_optimization,Class weight LogisticRegression,train_optimized,train_best_mcc,0.77,0.0,0.77,0.77
+AID362 PubChem Bioassay,threshold_optimization,Class weight LogisticRegression,train_optimized,train_best_youden,0.44,0.0,0.44,0.44
+AID362 PubChem Bioassay,threshold_optimization,Class weight LogisticRegression,validation_optimized,validation_best_f1,0.9,0.10440306508910548,0.78,0.97
+AID362 PubChem Bioassay,threshold_optimization,Class weight LogisticRegression,validation_optimized,validation_best_g_mean,0.13333333333333333,0.07505553499465135,0.09,0.22
+AID362 PubChem Bioassay,threshold_optimization,Class weight LogisticRegression,validation_optimized,validation_best_mcc,0.88,0.09539392014169452,0.78,0.97
+AID362 PubChem Bioassay,threshold_optimization,Class weight LogisticRegression,validation_optimized,validation_best_youden,0.25,0.17691806012954134,0.09,0.44
+AID362 PubChem Bioassay,threshold_optimization,Custom weighted log-loss LR,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+AID362 PubChem Bioassay,threshold_optimization,Custom weighted log-loss LR,ghost,ghost_f1,0.5566666666666666,0.07234178138070237,0.51,0.64
+AID362 PubChem Bioassay,threshold_optimization,Custom weighted log-loss LR,ghost,ghost_g_mean,0.10000000000000002,0.04000000000000001,0.06,0.14
+AID362 PubChem Bioassay,threshold_optimization,Custom weighted log-loss LR,ghost,ghost_kappa,0.5566666666666666,0.07234178138070237,0.51,0.64
+AID362 PubChem Bioassay,threshold_optimization,Custom weighted log-loss LR,ghost,ghost_mcc,0.4666666666666666,0.09237604307034014,0.36,0.52
+AID362 PubChem Bioassay,threshold_optimization,Custom weighted log-loss LR,ghost,ghost_youden,0.10000000000000002,0.04000000000000001,0.06,0.14
+AID362 PubChem Bioassay,threshold_optimization,Custom weighted log-loss LR,train_optimized,train_best_f1,0.52,0.0,0.52,0.52
+AID362 PubChem Bioassay,threshold_optimization,Custom weighted log-loss LR,train_optimized,train_best_g_mean,0.09999999999999999,0.0,0.09999999999999999,0.09999999999999999
+AID362 PubChem Bioassay,threshold_optimization,Custom weighted log-loss LR,train_optimized,train_best_mcc,0.52,0.0,0.52,0.52
+AID362 PubChem Bioassay,threshold_optimization,Custom weighted log-loss LR,train_optimized,train_best_youden,0.09999999999999999,0.0,0.09999999999999999,0.09999999999999999
+AID362 PubChem Bioassay,threshold_optimization,Custom weighted log-loss LR,validation_optimized,validation_best_f1,0.6566666666666667,0.19655363983740756,0.51,0.88
+AID362 PubChem Bioassay,threshold_optimization,Custom weighted log-loss LR,validation_optimized,validation_best_g_mean,0.016666666666666666,0.005773502691896258,0.01,0.02
+AID362 PubChem Bioassay,threshold_optimization,Custom weighted log-loss LR,validation_optimized,validation_best_mcc,0.5733333333333334,0.3100537587795596,0.26,0.88
+AID362 PubChem Bioassay,threshold_optimization,Custom weighted log-loss LR,validation_optimized,validation_best_youden,0.16,0.09165151389911681,0.08,0.26
+AID362 PubChem Bioassay,threshold_optimization,EasyEnsemble,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+AID362 PubChem Bioassay,threshold_optimization,EasyEnsemble,ghost,ghost_f1,0.5833333333333334,0.0057735026918962545,0.58,0.59
+AID362 PubChem Bioassay,threshold_optimization,EasyEnsemble,ghost,ghost_g_mean,0.5333333333333333,0.005773502691896279,0.53,0.54
+AID362 PubChem Bioassay,threshold_optimization,EasyEnsemble,ghost,ghost_kappa,0.5833333333333334,0.0057735026918962545,0.58,0.59
+AID362 PubChem Bioassay,threshold_optimization,EasyEnsemble,ghost,ghost_mcc,0.5833333333333334,0.0057735026918962545,0.58,0.59
+AID362 PubChem Bioassay,threshold_optimization,EasyEnsemble,ghost,ghost_youden,0.5333333333333333,0.005773502691896279,0.53,0.54
+AID362 PubChem Bioassay,threshold_optimization,EasyEnsemble,train_optimized,train_best_f1,0.5833333333333334,0.005773502691896215,0.5800000000000001,0.59
+AID362 PubChem Bioassay,threshold_optimization,EasyEnsemble,train_optimized,train_best_g_mean,0.5333333333333333,0.0057735026918962545,0.53,0.54
+AID362 PubChem Bioassay,threshold_optimization,EasyEnsemble,train_optimized,train_best_mcc,0.5833333333333334,0.005773502691896215,0.5800000000000001,0.59
+AID362 PubChem Bioassay,threshold_optimization,EasyEnsemble,train_optimized,train_best_youden,0.53,0.010000000000000009,0.52,0.54
+AID362 PubChem Bioassay,threshold_optimization,EasyEnsemble,validation_optimized,validation_best_f1,0.5966666666666667,0.020816659994661323,0.5800000000000001,0.62
+AID362 PubChem Bioassay,threshold_optimization,EasyEnsemble,validation_optimized,validation_best_g_mean,0.5133333333333333,0.015275252316519477,0.5,0.53
+AID362 PubChem Bioassay,threshold_optimization,EasyEnsemble,validation_optimized,validation_best_mcc,0.6033333333333334,0.028867513459481298,0.5700000000000001,0.62
+AID362 PubChem Bioassay,threshold_optimization,EasyEnsemble,validation_optimized,validation_best_youden,0.5233333333333333,0.020816659994661358,0.5,0.54
+AID362 PubChem Bioassay,threshold_optimization,RF (balanced_subsample),fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+AID362 PubChem Bioassay,threshold_optimization,RF (balanced_subsample),ghost,ghost_f1,0.19000000000000003,0.010000000000000009,0.18,0.2
+AID362 PubChem Bioassay,threshold_optimization,RF (balanced_subsample),ghost,ghost_g_mean,0.19000000000000003,0.010000000000000009,0.18,0.2
+AID362 PubChem Bioassay,threshold_optimization,RF (balanced_subsample),ghost,ghost_kappa,0.19000000000000003,0.010000000000000009,0.18,0.2
+AID362 PubChem Bioassay,threshold_optimization,RF (balanced_subsample),ghost,ghost_mcc,0.19000000000000003,0.010000000000000009,0.18,0.2
+AID362 PubChem Bioassay,threshold_optimization,RF (balanced_subsample),ghost,ghost_youden,0.19000000000000003,0.010000000000000009,0.18,0.2
+AID362 PubChem Bioassay,threshold_optimization,RF (balanced_subsample),train_optimized,train_best_f1,0.22333333333333336,0.011547005383792512,0.21000000000000002,0.23
+AID362 PubChem Bioassay,threshold_optimization,RF (balanced_subsample),train_optimized,train_best_g_mean,0.22333333333333336,0.011547005383792512,0.21000000000000002,0.23
+AID362 PubChem Bioassay,threshold_optimization,RF (balanced_subsample),train_optimized,train_best_mcc,0.22333333333333336,0.011547005383792512,0.21000000000000002,0.23
+AID362 PubChem Bioassay,threshold_optimization,RF (balanced_subsample),train_optimized,train_best_youden,0.22333333333333336,0.011547005383792512,0.21000000000000002,0.23
+AID362 PubChem Bioassay,threshold_optimization,RF (balanced_subsample),validation_optimized,validation_best_f1,0.28,0.19974984355438177,0.15000000000000002,0.51
+AID362 PubChem Bioassay,threshold_optimization,RF (balanced_subsample),validation_optimized,validation_best_g_mean,0.03333333333333333,0.025166114784235832,0.01,0.060000000000000005
+AID362 PubChem Bioassay,threshold_optimization,RF (balanced_subsample),validation_optimized,validation_best_mcc,0.28,0.19974984355438177,0.15000000000000002,0.51
+AID362 PubChem Bioassay,threshold_optimization,RF (balanced_subsample),validation_optimized,validation_best_youden,0.04666666666666667,0.01527525231651947,0.03,0.060000000000000005
+AID362 PubChem Bioassay,threshold_optimization,RUSBoost,fixed_threshold,default_0.5,0.5,,0.5,0.5
+AID362 PubChem Bioassay,threshold_optimization,RUSBoost,ghost,ghost_f1,0.87,,0.87,0.87
+AID362 PubChem Bioassay,threshold_optimization,RUSBoost,ghost,ghost_g_mean,0.14,,0.14,0.14
+AID362 PubChem Bioassay,threshold_optimization,RUSBoost,ghost,ghost_kappa,0.87,,0.87,0.87
+AID362 PubChem Bioassay,threshold_optimization,RUSBoost,ghost,ghost_mcc,0.87,,0.87,0.87
+AID362 PubChem Bioassay,threshold_optimization,RUSBoost,ghost,ghost_youden,0.87,,0.87,0.87
+AID362 PubChem Bioassay,threshold_optimization,RUSBoost,train_optimized,train_best_f1,0.87,,0.87,0.87
+AID362 PubChem Bioassay,threshold_optimization,RUSBoost,train_optimized,train_best_g_mean,0.14,,0.14,0.14
+AID362 PubChem Bioassay,threshold_optimization,RUSBoost,train_optimized,train_best_mcc,0.87,,0.87,0.87
+AID362 PubChem Bioassay,threshold_optimization,RUSBoost,train_optimized,train_best_youden,0.87,,0.87,0.87
+AID362 PubChem Bioassay,threshold_optimization,RUSBoost,validation_optimized,validation_best_f1,0.62,,0.62,0.62
+AID362 PubChem Bioassay,threshold_optimization,RUSBoost,validation_optimized,validation_best_g_mean,0.12,,0.12,0.12
+AID362 PubChem Bioassay,threshold_optimization,RUSBoost,validation_optimized,validation_best_mcc,0.12,,0.12,0.12
+AID362 PubChem Bioassay,threshold_optimization,RUSBoost,validation_optimized,validation_best_youden,0.12,,0.12,0.12
+AID362 PubChem Bioassay,threshold_optimization,Random Oversampling + RF,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+AID362 PubChem Bioassay,threshold_optimization,Random Oversampling + RF,ghost,ghost_f1,0.27,0.010000000000000009,0.26,0.28
+AID362 PubChem Bioassay,threshold_optimization,Random Oversampling + RF,ghost,ghost_g_mean,0.27,0.010000000000000009,0.26,0.28
+AID362 PubChem Bioassay,threshold_optimization,Random Oversampling + RF,ghost,ghost_kappa,0.27,0.010000000000000009,0.26,0.28
+AID362 PubChem Bioassay,threshold_optimization,Random Oversampling + RF,ghost,ghost_mcc,0.27,0.010000000000000009,0.26,0.28
+AID362 PubChem Bioassay,threshold_optimization,Random Oversampling + RF,ghost,ghost_youden,0.27,0.010000000000000009,0.26,0.28
+AID362 PubChem Bioassay,threshold_optimization,Random Oversampling + RF,train_optimized,train_best_f1,0.35333333333333333,0.0404145188432738,0.31,0.39
+AID362 PubChem Bioassay,threshold_optimization,Random Oversampling + RF,train_optimized,train_best_g_mean,0.35333333333333333,0.0404145188432738,0.31,0.39
+AID362 PubChem Bioassay,threshold_optimization,Random Oversampling + RF,train_optimized,train_best_mcc,0.35333333333333333,0.0404145188432738,0.31,0.39
+AID362 PubChem Bioassay,threshold_optimization,Random Oversampling + RF,train_optimized,train_best_youden,0.35333333333333333,0.0404145188432738,0.31,0.39
+AID362 PubChem Bioassay,threshold_optimization,Random Oversampling + RF,validation_optimized,validation_best_f1,0.2466666666666667,0.06658328118479394,0.17,0.29000000000000004
+AID362 PubChem Bioassay,threshold_optimization,Random Oversampling + RF,validation_optimized,validation_best_g_mean,0.06333333333333334,0.09237604307034013,0.01,0.17
+AID362 PubChem Bioassay,threshold_optimization,Random Oversampling + RF,validation_optimized,validation_best_mcc,0.5433333333333333,0.23713568549109879,0.29000000000000004,0.76
+AID362 PubChem Bioassay,threshold_optimization,Random Oversampling + RF,validation_optimized,validation_best_youden,0.06333333333333334,0.09237604307034013,0.01,0.17
+AID362 PubChem Bioassay,threshold_optimization,Random Undersampling + RF,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+AID362 PubChem Bioassay,threshold_optimization,Random Undersampling + RF,ghost,ghost_f1,0.82,0.01999999999999995,0.8,0.84
+AID362 PubChem Bioassay,threshold_optimization,Random Undersampling + RF,ghost,ghost_g_mean,0.6966666666666667,0.015275252316519444,0.68,0.71
+AID362 PubChem Bioassay,threshold_optimization,Random Undersampling + RF,ghost,ghost_kappa,0.82,0.01999999999999995,0.8,0.84
+AID362 PubChem Bioassay,threshold_optimization,Random Undersampling + RF,ghost,ghost_mcc,0.8166666666666668,0.025166114784235794,0.79,0.84
+AID362 PubChem Bioassay,threshold_optimization,Random Undersampling + RF,ghost,ghost_youden,0.6966666666666667,0.015275252316519444,0.68,0.71
+AID362 PubChem Bioassay,threshold_optimization,Random Undersampling + RF,train_optimized,train_best_f1,0.8233333333333334,0.0057735026918962545,0.8200000000000001,0.8300000000000001
+AID362 PubChem Bioassay,threshold_optimization,Random Undersampling + RF,train_optimized,train_best_g_mean,0.6666666666666666,0.015275252316519468,0.65,0.68
+AID362 PubChem Bioassay,threshold_optimization,Random Undersampling + RF,train_optimized,train_best_mcc,0.8166666666666668,0.015275252316519494,0.8,0.8300000000000001
+AID362 PubChem Bioassay,threshold_optimization,Random Undersampling + RF,train_optimized,train_best_youden,0.6666666666666666,0.015275252316519468,0.65,0.68
+AID362 PubChem Bioassay,threshold_optimization,Random Undersampling + RF,validation_optimized,validation_best_f1,0.8333333333333334,0.08504900548115381,0.77,0.93
+AID362 PubChem Bioassay,threshold_optimization,Random Undersampling + RF,validation_optimized,validation_best_g_mean,0.5433333333333333,0.16802777548171413,0.36000000000000004,0.6900000000000001
+AID362 PubChem Bioassay,threshold_optimization,Random Undersampling + RF,validation_optimized,validation_best_mcc,0.8333333333333334,0.08504900548115381,0.77,0.93
+AID362 PubChem Bioassay,threshold_optimization,Random Undersampling + RF,validation_optimized,validation_best_youden,0.5166666666666667,0.2122105872319601,0.28,0.6900000000000001
+AID362 PubChem Bioassay,threshold_optimization,SMOTE + RF,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+AID362 PubChem Bioassay,threshold_optimization,SMOTE + RF,ghost,ghost_f1,0.23666666666666666,0.005773502691896242,0.23,0.24
+AID362 PubChem Bioassay,threshold_optimization,SMOTE + RF,ghost,ghost_g_mean,0.23666666666666666,0.005773502691896242,0.23,0.24
+AID362 PubChem Bioassay,threshold_optimization,SMOTE + RF,ghost,ghost_kappa,0.23666666666666666,0.005773502691896242,0.23,0.24
+AID362 PubChem Bioassay,threshold_optimization,SMOTE + RF,ghost,ghost_mcc,0.23666666666666666,0.005773502691896242,0.23,0.24
+AID362 PubChem Bioassay,threshold_optimization,SMOTE + RF,ghost,ghost_youden,0.23666666666666666,0.005773502691896242,0.23,0.24
+AID362 PubChem Bioassay,threshold_optimization,SMOTE + RF,train_optimized,train_best_f1,0.3266666666666667,0.040414518843273815,0.28,0.35000000000000003
+AID362 PubChem Bioassay,threshold_optimization,SMOTE + RF,train_optimized,train_best_g_mean,0.3266666666666667,0.040414518843273815,0.28,0.35000000000000003
+AID362 PubChem Bioassay,threshold_optimization,SMOTE + RF,train_optimized,train_best_mcc,0.3266666666666667,0.040414518843273815,0.28,0.35000000000000003
+AID362 PubChem Bioassay,threshold_optimization,SMOTE + RF,train_optimized,train_best_youden,0.3266666666666667,0.040414518843273815,0.28,0.35000000000000003
+AID362 PubChem Bioassay,threshold_optimization,SMOTE + RF,validation_optimized,validation_best_f1,0.17333333333333334,0.04041451884327381,0.13,0.21000000000000002
+AID362 PubChem Bioassay,threshold_optimization,SMOTE + RF,validation_optimized,validation_best_g_mean,0.05666666666666667,0.06350852961085884,0.02,0.13
+AID362 PubChem Bioassay,threshold_optimization,SMOTE + RF,validation_optimized,validation_best_mcc,0.46666666666666673,0.251462389500564,0.18000000000000002,0.65
+AID362 PubChem Bioassay,threshold_optimization,SMOTE + RF,validation_optimized,validation_best_youden,0.05666666666666667,0.06350852961085884,0.02,0.13
+AID362 PubChem Bioassay,threshold_optimization,SMOTE-ENN + RF,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+AID362 PubChem Bioassay,threshold_optimization,SMOTE-ENN + RF,ghost,ghost_f1,0.36000000000000004,0.11789826122551599,0.23,0.46
+AID362 PubChem Bioassay,threshold_optimization,SMOTE-ENN + RF,ghost,ghost_g_mean,0.07,0.04,0.03,0.11
+AID362 PubChem Bioassay,threshold_optimization,SMOTE-ENN + RF,ghost,ghost_kappa,0.5066666666666667,0.06506407098647712,0.44,0.57
+AID362 PubChem Bioassay,threshold_optimization,SMOTE-ENN + RF,ghost,ghost_mcc,0.5066666666666667,0.06506407098647712,0.44,0.57
+AID362 PubChem Bioassay,threshold_optimization,SMOTE-ENN + RF,ghost,ghost_youden,0.07,0.04,0.03,0.11
+AID362 PubChem Bioassay,threshold_optimization,SMOTE-ENN + RF,train_optimized,train_best_f1,0.5633333333333334,0.12013880860626734,0.44,0.68
+AID362 PubChem Bioassay,threshold_optimization,SMOTE-ENN + RF,train_optimized,train_best_g_mean,0.06666666666666667,0.023094010767585032,0.04,0.08
+AID362 PubChem Bioassay,threshold_optimization,SMOTE-ENN + RF,train_optimized,train_best_mcc,0.5633333333333334,0.12013880860626734,0.44,0.68
+AID362 PubChem Bioassay,threshold_optimization,SMOTE-ENN + RF,train_optimized,train_best_youden,0.06666666666666667,0.023094010767585032,0.04,0.08
+AID362 PubChem Bioassay,threshold_optimization,SMOTE-ENN + RF,validation_optimized,validation_best_f1,0.11333333333333334,0.02886751345948129,0.08,0.13
+AID362 PubChem Bioassay,threshold_optimization,SMOTE-ENN + RF,validation_optimized,validation_best_g_mean,0.04,0.02,0.02,0.060000000000000005
+AID362 PubChem Bioassay,threshold_optimization,SMOTE-ENN + RF,validation_optimized,validation_best_mcc,0.11333333333333334,0.02886751345948129,0.08,0.13
+AID362 PubChem Bioassay,threshold_optimization,SMOTE-ENN + RF,validation_optimized,validation_best_youden,0.04,0.02,0.02,0.060000000000000005
+AID362 PubChem Bioassay,threshold_optimization,SMOTE-Tomek + RF,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+AID362 PubChem Bioassay,threshold_optimization,SMOTE-Tomek + RF,ghost,ghost_f1,0.2866666666666667,0.030550504633038926,0.26,0.32
+AID362 PubChem Bioassay,threshold_optimization,SMOTE-Tomek + RF,ghost,ghost_g_mean,0.25,0.07549834435270751,0.17,0.32
+AID362 PubChem Bioassay,threshold_optimization,SMOTE-Tomek + RF,ghost,ghost_kappa,0.2866666666666667,0.030550504633038926,0.26,0.32
+AID362 PubChem Bioassay,threshold_optimization,SMOTE-Tomek + RF,ghost,ghost_mcc,0.2866666666666667,0.030550504633038926,0.26,0.32
+AID362 PubChem Bioassay,threshold_optimization,SMOTE-Tomek + RF,ghost,ghost_youden,0.25,0.07549834435270751,0.17,0.32
+AID362 PubChem Bioassay,threshold_optimization,SMOTE-Tomek + RF,train_optimized,train_best_f1,0.5066666666666667,0.11676186592091331,0.38,0.61
+AID362 PubChem Bioassay,threshold_optimization,SMOTE-Tomek + RF,train_optimized,train_best_g_mean,0.10666666666666667,0.06027713773341709,0.05,0.17
+AID362 PubChem Bioassay,threshold_optimization,SMOTE-Tomek + RF,train_optimized,train_best_mcc,0.5066666666666667,0.11676186592091331,0.38,0.61
+AID362 PubChem Bioassay,threshold_optimization,SMOTE-Tomek + RF,train_optimized,train_best_youden,0.10666666666666667,0.06027713773341709,0.05,0.17
+AID362 PubChem Bioassay,threshold_optimization,SMOTE-Tomek + RF,validation_optimized,validation_best_f1,0.22,0.15394804318340652,0.09,0.39
+AID362 PubChem Bioassay,threshold_optimization,SMOTE-Tomek + RF,validation_optimized,validation_best_g_mean,0.09666666666666668,0.07637626158259735,0.03,0.18000000000000002
+AID362 PubChem Bioassay,threshold_optimization,SMOTE-Tomek + RF,validation_optimized,validation_best_mcc,0.3933333333333333,0.18903262505010432,0.18000000000000002,0.54
+AID362 PubChem Bioassay,threshold_optimization,SMOTE-Tomek + RF,validation_optimized,validation_best_youden,0.09666666666666668,0.07637626158259735,0.03,0.18000000000000002
+Abalone19,threshold_optimization,ADASYN + RF,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+Abalone19,threshold_optimization,ADASYN + RF,ghost,ghost_f1,0.26,0.020000000000000018,0.24,0.28
+Abalone19,threshold_optimization,ADASYN + RF,ghost,ghost_g_mean,0.26,0.020000000000000018,0.24,0.28
+Abalone19,threshold_optimization,ADASYN + RF,ghost,ghost_kappa,0.26,0.020000000000000018,0.24,0.28
+Abalone19,threshold_optimization,ADASYN + RF,ghost,ghost_mcc,0.26,0.020000000000000018,0.24,0.28
+Abalone19,threshold_optimization,ADASYN + RF,ghost,ghost_youden,0.26,0.020000000000000018,0.24,0.28
+Abalone19,threshold_optimization,ADASYN + RF,train_optimized,train_best_f1,0.32666666666666666,0.011547005383792521,0.32,0.34
+Abalone19,threshold_optimization,ADASYN + RF,train_optimized,train_best_g_mean,0.32666666666666666,0.011547005383792521,0.32,0.34
+Abalone19,threshold_optimization,ADASYN + RF,train_optimized,train_best_mcc,0.32666666666666666,0.011547005383792521,0.32,0.34
+Abalone19,threshold_optimization,ADASYN + RF,train_optimized,train_best_youden,0.32666666666666666,0.011547005383792521,0.32,0.34
+Abalone19,threshold_optimization,ADASYN + RF,validation_optimized,validation_best_f1,0.16,0.11532562594670798,0.05,0.28
+Abalone19,threshold_optimization,ADASYN + RF,validation_optimized,validation_best_g_mean,0.04,0.01,0.03,0.05
+Abalone19,threshold_optimization,ADASYN + RF,validation_optimized,validation_best_mcc,0.06,0.026457513110645904,0.04,0.09
+Abalone19,threshold_optimization,ADASYN + RF,validation_optimized,validation_best_youden,0.04,0.01,0.03,0.05
+Abalone19,threshold_optimization,Balanced Bagging,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+Abalone19,threshold_optimization,Balanced Bagging,ghost,ghost_f1,0.8966666666666666,0.023094010767585042,0.87,0.91
+Abalone19,threshold_optimization,Balanced Bagging,ghost,ghost_g_mean,0.6966666666666667,0.023094010767585018,0.67,0.71
+Abalone19,threshold_optimization,Balanced Bagging,ghost,ghost_kappa,0.8966666666666666,0.023094010767585042,0.87,0.91
+Abalone19,threshold_optimization,Balanced Bagging,ghost,ghost_mcc,0.8433333333333334,0.1154700538379252,0.71,0.91
+Abalone19,threshold_optimization,Balanced Bagging,ghost,ghost_youden,0.6966666666666667,0.023094010767585018,0.67,0.71
+Abalone19,threshold_optimization,Balanced Bagging,train_optimized,train_best_f1,0.8966666666666666,0.023094010767585042,0.87,0.91
+Abalone19,threshold_optimization,Balanced Bagging,train_optimized,train_best_g_mean,0.6066666666666667,0.0351188458428424,0.5700000000000001,0.64
+Abalone19,threshold_optimization,Balanced Bagging,train_optimized,train_best_mcc,0.8866666666666667,0.06806859285554047,0.81,0.9400000000000001
+Abalone19,threshold_optimization,Balanced Bagging,train_optimized,train_best_youden,0.5866666666666667,0.06806859285554043,0.51,0.64
+Abalone19,threshold_optimization,Balanced Bagging,validation_optimized,validation_best_f1,0.7266666666666667,0.23797758998135377,0.47000000000000003,0.9400000000000001
+Abalone19,threshold_optimization,Balanced Bagging,validation_optimized,validation_best_g_mean,0.4266666666666667,0.19139836293274123,0.27,0.64
+Abalone19,threshold_optimization,Balanced Bagging,validation_optimized,validation_best_mcc,0.5966666666666667,0.36692415201691664,0.21000000000000002,0.9400000000000001
+Abalone19,threshold_optimization,Balanced Bagging,validation_optimized,validation_best_youden,0.33,0.2707397274136177,0.14,0.64
+Abalone19,threshold_optimization,Balanced Random Forest,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+Abalone19,threshold_optimization,Balanced Random Forest,ghost,ghost_f1,0.8633333333333333,0.015275252316519494,0.85,0.88
+Abalone19,threshold_optimization,Balanced Random Forest,ghost,ghost_g_mean,0.7399999999999999,0.030000000000000027,0.71,0.77
+Abalone19,threshold_optimization,Balanced Random Forest,ghost,ghost_kappa,0.8633333333333333,0.015275252316519494,0.85,0.88
+Abalone19,threshold_optimization,Balanced Random Forest,ghost,ghost_mcc,0.8533333333333334,0.025166114784235867,0.83,0.88
+Abalone19,threshold_optimization,Balanced Random Forest,ghost,ghost_youden,0.7399999999999999,0.030000000000000027,0.71,0.77
+Abalone19,threshold_optimization,Balanced Random Forest,train_optimized,train_best_f1,0.8300000000000001,0.010000000000000009,0.8200000000000001,0.8400000000000001
+Abalone19,threshold_optimization,Balanced Random Forest,train_optimized,train_best_g_mean,0.6733333333333333,0.030550504633038964,0.64,0.7000000000000001
+Abalone19,threshold_optimization,Balanced Random Forest,train_optimized,train_best_mcc,0.8233333333333334,0.005773502691896279,0.8200000000000001,0.8300000000000001
+Abalone19,threshold_optimization,Balanced Random Forest,train_optimized,train_best_youden,0.6733333333333333,0.030550504633038964,0.64,0.7000000000000001
+Abalone19,threshold_optimization,Balanced Random Forest,validation_optimized,validation_best_f1,0.6900000000000001,0.19078784028338916,0.47000000000000003,0.81
+Abalone19,threshold_optimization,Balanced Random Forest,validation_optimized,validation_best_g_mean,0.46,0.19519221295943134,0.26,0.65
+Abalone19,threshold_optimization,Balanced Random Forest,validation_optimized,validation_best_mcc,0.6366666666666667,0.16041612554021287,0.47000000000000003,0.79
+Abalone19,threshold_optimization,Balanced Random Forest,validation_optimized,validation_best_youden,0.38000000000000006,0.23430749027719963,0.23,0.65
+Abalone19,threshold_optimization,Baseline RF,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+Abalone19,threshold_optimization,Baseline RF,ghost,ghost_f1,0.11,0.009999999999999995,0.1,0.12
+Abalone19,threshold_optimization,Baseline RF,ghost,ghost_g_mean,0.11,0.009999999999999995,0.1,0.12
+Abalone19,threshold_optimization,Baseline RF,ghost,ghost_kappa,0.11,0.009999999999999995,0.1,0.12
+Abalone19,threshold_optimization,Baseline RF,ghost,ghost_mcc,0.11,0.009999999999999995,0.1,0.12
+Abalone19,threshold_optimization,Baseline RF,ghost,ghost_youden,0.11,0.009999999999999995,0.1,0.12
+Abalone19,threshold_optimization,Baseline RF,train_optimized,train_best_f1,0.1366666666666667,0.015275252316519477,0.12,0.15000000000000002
+Abalone19,threshold_optimization,Baseline RF,train_optimized,train_best_g_mean,0.1366666666666667,0.015275252316519477,0.12,0.15000000000000002
+Abalone19,threshold_optimization,Baseline RF,train_optimized,train_best_mcc,0.1366666666666667,0.015275252316519477,0.12,0.15000000000000002
+Abalone19,threshold_optimization,Baseline RF,train_optimized,train_best_youden,0.1366666666666667,0.015275252316519477,0.12,0.15000000000000002
+Abalone19,threshold_optimization,Baseline RF,validation_optimized,validation_best_f1,0.056666666666666664,0.05507570547286102,0.02,0.12
+Abalone19,threshold_optimization,Baseline RF,validation_optimized,validation_best_g_mean,0.02,0.01,0.01,0.03
+Abalone19,threshold_optimization,Baseline RF,validation_optimized,validation_best_mcc,0.056666666666666664,0.05507570547286102,0.02,0.12
+Abalone19,threshold_optimization,Baseline RF,validation_optimized,validation_best_youden,0.02,0.01,0.01,0.03
+Abalone19,threshold_optimization,Borderline-SMOTE + RF,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+Abalone19,threshold_optimization,Borderline-SMOTE + RF,ghost,ghost_f1,0.24333333333333332,0.03785938897200183,0.2,0.27
+Abalone19,threshold_optimization,Borderline-SMOTE + RF,ghost,ghost_g_mean,0.24333333333333332,0.03785938897200183,0.2,0.27
+Abalone19,threshold_optimization,Borderline-SMOTE + RF,ghost,ghost_kappa,0.24333333333333332,0.03785938897200183,0.2,0.27
+Abalone19,threshold_optimization,Borderline-SMOTE + RF,ghost,ghost_mcc,0.24333333333333332,0.03785938897200183,0.2,0.27
+Abalone19,threshold_optimization,Borderline-SMOTE + RF,ghost,ghost_youden,0.24333333333333332,0.03785938897200183,0.2,0.27
+Abalone19,threshold_optimization,Borderline-SMOTE + RF,train_optimized,train_best_f1,0.2933333333333334,0.05507570547286105,0.24000000000000002,0.35000000000000003
+Abalone19,threshold_optimization,Borderline-SMOTE + RF,train_optimized,train_best_g_mean,0.2933333333333334,0.05507570547286105,0.24000000000000002,0.35000000000000003
+Abalone19,threshold_optimization,Borderline-SMOTE + RF,train_optimized,train_best_mcc,0.2933333333333334,0.05507570547286105,0.24000000000000002,0.35000000000000003
+Abalone19,threshold_optimization,Borderline-SMOTE + RF,train_optimized,train_best_youden,0.2933333333333334,0.05507570547286105,0.24000000000000002,0.35000000000000003
+Abalone19,threshold_optimization,Borderline-SMOTE + RF,validation_optimized,validation_best_f1,0.10000000000000002,0.1014889156509222,0.01,0.21000000000000002
+Abalone19,threshold_optimization,Borderline-SMOTE + RF,validation_optimized,validation_best_g_mean,0.01,0.0,0.01,0.01
+Abalone19,threshold_optimization,Borderline-SMOTE + RF,validation_optimized,validation_best_mcc,0.023333333333333334,0.023094010767585032,0.01,0.05
+Abalone19,threshold_optimization,Borderline-SMOTE + RF,validation_optimized,validation_best_youden,0.023333333333333334,0.023094010767585032,0.01,0.05
+Abalone19,threshold_optimization,Class weight LogisticRegression,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+Abalone19,threshold_optimization,Class weight LogisticRegression,ghost,ghost_f1,0.8066666666666666,0.0057735026918962545,0.8,0.81
+Abalone19,threshold_optimization,Class weight LogisticRegression,ghost,ghost_g_mean,0.49666666666666665,0.028867513459481322,0.48,0.53
+Abalone19,threshold_optimization,Class weight LogisticRegression,ghost,ghost_kappa,0.8066666666666666,0.0057735026918962545,0.8,0.81
+Abalone19,threshold_optimization,Class weight LogisticRegression,ghost,ghost_mcc,0.49666666666666665,0.028867513459481322,0.48,0.53
+Abalone19,threshold_optimization,Class weight LogisticRegression,ghost,ghost_youden,0.49666666666666665,0.028867513459481322,0.48,0.53
+Abalone19,threshold_optimization,Class weight LogisticRegression,train_optimized,train_best_f1,0.77,0.0,0.77,0.77
+Abalone19,threshold_optimization,Class weight LogisticRegression,train_optimized,train_best_g_mean,0.38000000000000006,0.0,0.38,0.38
+Abalone19,threshold_optimization,Class weight LogisticRegression,train_optimized,train_best_mcc,0.53,0.0,0.53,0.53
+Abalone19,threshold_optimization,Class weight LogisticRegression,train_optimized,train_best_youden,0.38000000000000006,0.0,0.38,0.38
+Abalone19,threshold_optimization,Class weight LogisticRegression,validation_optimized,validation_best_f1,0.8966666666666666,0.08144527815247074,0.8400000000000001,0.99
+Abalone19,threshold_optimization,Class weight LogisticRegression,validation_optimized,validation_best_g_mean,0.3933333333333333,0.1361371857110809,0.24000000000000002,0.5
+Abalone19,threshold_optimization,Class weight LogisticRegression,validation_optimized,validation_best_mcc,0.66,0.21071307505705478,0.44,0.86
+Abalone19,threshold_optimization,Class weight LogisticRegression,validation_optimized,validation_best_youden,0.3933333333333333,0.1361371857110809,0.24000000000000002,0.5
+Abalone19,threshold_optimization,Custom weighted log-loss LR,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+Abalone19,threshold_optimization,Custom weighted log-loss LR,ghost,ghost_f1,0.10333333333333333,0.03214550253664319,0.08,0.14
+Abalone19,threshold_optimization,Custom weighted log-loss LR,ghost,ghost_g_mean,0.05333333333333334,0.011547005383792512,0.04,0.06
+Abalone19,threshold_optimization,Custom weighted log-loss LR,ghost,ghost_kappa,0.10333333333333333,0.03214550253664319,0.08,0.14
+Abalone19,threshold_optimization,Custom weighted log-loss LR,ghost,ghost_mcc,0.06666666666666667,0.011547005383792518,0.06,0.08
+Abalone19,threshold_optimization,Custom weighted log-loss LR,ghost,ghost_youden,0.05333333333333334,0.011547005383792512,0.04,0.06
+Abalone19,threshold_optimization,Custom weighted log-loss LR,train_optimized,train_best_f1,0.08,0.0,0.08,0.08
+Abalone19,threshold_optimization,Custom weighted log-loss LR,train_optimized,train_best_g_mean,0.060000000000000005,0.0,0.060000000000000005,0.060000000000000005
+Abalone19,threshold_optimization,Custom weighted log-loss LR,train_optimized,train_best_mcc,0.060000000000000005,0.0,0.060000000000000005,0.060000000000000005
+Abalone19,threshold_optimization,Custom weighted log-loss LR,train_optimized,train_best_youden,0.060000000000000005,0.0,0.060000000000000005,0.060000000000000005
+Abalone19,threshold_optimization,Custom weighted log-loss LR,validation_optimized,validation_best_f1,0.14333333333333334,0.11930353445448855,0.060000000000000005,0.28
+Abalone19,threshold_optimization,Custom weighted log-loss LR,validation_optimized,validation_best_g_mean,0.04,0.017320508075688773,0.02,0.05
+Abalone19,threshold_optimization,Custom weighted log-loss LR,validation_optimized,validation_best_mcc,0.05333333333333334,0.035118845842842465,0.02,0.09
+Abalone19,threshold_optimization,Custom weighted log-loss LR,validation_optimized,validation_best_youden,0.04,0.017320508075688773,0.02,0.05
+Abalone19,threshold_optimization,EasyEnsemble,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+Abalone19,threshold_optimization,EasyEnsemble,ghost,ghost_f1,0.61,0.010000000000000009,0.6,0.62
+Abalone19,threshold_optimization,EasyEnsemble,ghost,ghost_g_mean,0.5666666666666667,0.0057735026918961825,0.56,0.57
+Abalone19,threshold_optimization,EasyEnsemble,ghost,ghost_kappa,0.61,0.010000000000000009,0.6,0.62
+Abalone19,threshold_optimization,EasyEnsemble,ghost,ghost_mcc,0.59,0.020000000000000018,0.57,0.61
+Abalone19,threshold_optimization,EasyEnsemble,ghost,ghost_youden,0.5666666666666667,0.0057735026918961825,0.56,0.57
+Abalone19,threshold_optimization,EasyEnsemble,train_optimized,train_best_f1,0.61,0.010000000000000009,0.6,0.62
+Abalone19,threshold_optimization,EasyEnsemble,train_optimized,train_best_g_mean,0.5533333333333333,0.011547005383792535,0.54,0.56
+Abalone19,threshold_optimization,EasyEnsemble,train_optimized,train_best_mcc,0.59,0.017320508075688763,0.5700000000000001,0.6
+Abalone19,threshold_optimization,EasyEnsemble,train_optimized,train_best_youden,0.5433333333333333,0.015275252316519468,0.53,0.56
+Abalone19,threshold_optimization,EasyEnsemble,validation_optimized,validation_best_f1,0.5766666666666667,0.05859465277082314,0.51,0.62
+Abalone19,threshold_optimization,EasyEnsemble,validation_optimized,validation_best_g_mean,0.5233333333333333,0.023094010767585042,0.51,0.55
+Abalone19,threshold_optimization,EasyEnsemble,validation_optimized,validation_best_mcc,0.5633333333333334,0.04725815626252611,0.51,0.6
+Abalone19,threshold_optimization,EasyEnsemble,validation_optimized,validation_best_youden,0.5233333333333333,0.023094010767585042,0.51,0.55
+Abalone19,threshold_optimization,RF (balanced_subsample),fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+Abalone19,threshold_optimization,RF (balanced_subsample),ghost,ghost_f1,0.10333333333333333,0.0057735026918962545,0.1,0.11
+Abalone19,threshold_optimization,RF (balanced_subsample),ghost,ghost_g_mean,0.10333333333333333,0.0057735026918962545,0.1,0.11
+Abalone19,threshold_optimization,RF (balanced_subsample),ghost,ghost_kappa,0.10333333333333333,0.0057735026918962545,0.1,0.11
+Abalone19,threshold_optimization,RF (balanced_subsample),ghost,ghost_mcc,0.10333333333333333,0.0057735026918962545,0.1,0.11
+Abalone19,threshold_optimization,RF (balanced_subsample),ghost,ghost_youden,0.10333333333333333,0.0057735026918962545,0.1,0.11
+Abalone19,threshold_optimization,RF (balanced_subsample),train_optimized,train_best_f1,0.13333333333333333,0.015275252316519477,0.12,0.15000000000000002
+Abalone19,threshold_optimization,RF (balanced_subsample),train_optimized,train_best_g_mean,0.13333333333333333,0.015275252316519477,0.12,0.15000000000000002
+Abalone19,threshold_optimization,RF (balanced_subsample),train_optimized,train_best_mcc,0.13333333333333333,0.015275252316519477,0.12,0.15000000000000002
+Abalone19,threshold_optimization,RF (balanced_subsample),train_optimized,train_best_youden,0.13333333333333333,0.015275252316519477,0.12,0.15000000000000002
+Abalone19,threshold_optimization,RF (balanced_subsample),validation_optimized,validation_best_f1,0.04666666666666667,0.0404145188432738,0.01,0.09
+Abalone19,threshold_optimization,RF (balanced_subsample),validation_optimized,validation_best_g_mean,0.023333333333333334,0.023094010767585032,0.01,0.05
+Abalone19,threshold_optimization,RF (balanced_subsample),validation_optimized,validation_best_mcc,0.12333333333333334,0.13576941236277537,0.04,0.28
+Abalone19,threshold_optimization,RF (balanced_subsample),validation_optimized,validation_best_youden,0.11333333333333334,0.1457166199626293,0.01,0.28
+Abalone19,threshold_optimization,RUSBoost,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+Abalone19,threshold_optimization,RUSBoost,ghost,ghost_f1,0.13,0.014142135623730963,0.12,0.14
+Abalone19,threshold_optimization,RUSBoost,ghost,ghost_g_mean,0.13,0.014142135623730963,0.12,0.14
+Abalone19,threshold_optimization,RUSBoost,ghost,ghost_kappa,0.13,0.014142135623730963,0.12,0.14
+Abalone19,threshold_optimization,RUSBoost,ghost,ghost_mcc,0.13,0.014142135623730963,0.12,0.14
+Abalone19,threshold_optimization,RUSBoost,ghost,ghost_youden,0.13,0.014142135623730963,0.12,0.14
+Abalone19,threshold_optimization,RUSBoost,train_optimized,train_best_f1,0.13,0.014142135623730963,0.12,0.14
+Abalone19,threshold_optimization,RUSBoost,train_optimized,train_best_g_mean,0.13,0.014142135623730963,0.12,0.14
+Abalone19,threshold_optimization,RUSBoost,train_optimized,train_best_mcc,0.13,0.014142135623730963,0.12,0.14
+Abalone19,threshold_optimization,RUSBoost,train_optimized,train_best_youden,0.13,0.014142135623730963,0.12,0.14
+Abalone19,threshold_optimization,Random Oversampling + RF,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+Abalone19,threshold_optimization,Random Oversampling + RF,ghost,ghost_f1,0.17,0.026457513110645897,0.14,0.19
+Abalone19,threshold_optimization,Random Oversampling + RF,ghost,ghost_g_mean,0.17,0.026457513110645897,0.14,0.19
+Abalone19,threshold_optimization,Random Oversampling + RF,ghost,ghost_kappa,0.17,0.026457513110645897,0.14,0.19
+Abalone19,threshold_optimization,Random Oversampling + RF,ghost,ghost_mcc,0.17,0.026457513110645897,0.14,0.19
+Abalone19,threshold_optimization,Random Oversampling + RF,ghost,ghost_youden,0.17,0.026457513110645897,0.14,0.19
+Abalone19,threshold_optimization,Random Oversampling + RF,train_optimized,train_best_f1,0.19666666666666668,0.023094010767585032,0.17,0.21000000000000002
+Abalone19,threshold_optimization,Random Oversampling + RF,train_optimized,train_best_g_mean,0.19666666666666668,0.023094010767585032,0.17,0.21000000000000002
+Abalone19,threshold_optimization,Random Oversampling + RF,train_optimized,train_best_mcc,0.19666666666666668,0.023094010767585032,0.17,0.21000000000000002
+Abalone19,threshold_optimization,Random Oversampling + RF,train_optimized,train_best_youden,0.19666666666666668,0.023094010767585032,0.17,0.21000000000000002
+Abalone19,threshold_optimization,Random Oversampling + RF,validation_optimized,validation_best_f1,0.02666666666666667,0.02081665999466133,0.01,0.05
+Abalone19,threshold_optimization,Random Oversampling + RF,validation_optimized,validation_best_g_mean,0.013333333333333334,0.005773502691896257,0.01,0.02
+Abalone19,threshold_optimization,Random Oversampling + RF,validation_optimized,validation_best_mcc,0.14,0.21656407827707713,0.01,0.39
+Abalone19,threshold_optimization,Random Oversampling + RF,validation_optimized,validation_best_youden,0.14,0.21656407827707713,0.01,0.39
+Abalone19,threshold_optimization,Random Undersampling + RF,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+Abalone19,threshold_optimization,Random Undersampling + RF,ghost,ghost_f1,0.9033333333333333,0.030550504633038964,0.87,0.93
+Abalone19,threshold_optimization,Random Undersampling + RF,ghost,ghost_g_mean,0.7866666666666667,0.023094010767585042,0.76,0.8
+Abalone19,threshold_optimization,Random Undersampling + RF,ghost,ghost_kappa,0.9033333333333333,0.030550504633038964,0.87,0.93
+Abalone19,threshold_optimization,Random Undersampling + RF,ghost,ghost_mcc,0.89,0.05291502622129186,0.83,0.93
+Abalone19,threshold_optimization,Random Undersampling + RF,ghost,ghost_youden,0.7866666666666667,0.023094010767585042,0.76,0.8
+Abalone19,threshold_optimization,Random Undersampling + RF,train_optimized,train_best_f1,0.9066666666666667,0.025166114784235853,0.88,0.93
+Abalone19,threshold_optimization,Random Undersampling + RF,train_optimized,train_best_g_mean,0.7399999999999999,0.010000000000000009,0.73,0.75
+Abalone19,threshold_optimization,Random Undersampling + RF,train_optimized,train_best_mcc,0.8833333333333333,0.025166114784235843,0.86,0.91
+Abalone19,threshold_optimization,Random Undersampling + RF,train_optimized,train_best_youden,0.71,0.06082762530298214,0.64,0.75
+Abalone19,threshold_optimization,Random Undersampling + RF,validation_optimized,validation_best_f1,0.7333333333333334,0.25324559884296777,0.46,0.9600000000000001
+Abalone19,threshold_optimization,Random Undersampling + RF,validation_optimized,validation_best_g_mean,0.5233333333333333,0.15631165450257808,0.38,0.6900000000000001
+Abalone19,threshold_optimization,Random Undersampling + RF,validation_optimized,validation_best_mcc,0.6133333333333334,0.3061590000854676,0.38,0.9600000000000001
+Abalone19,threshold_optimization,Random Undersampling + RF,validation_optimized,validation_best_youden,0.5233333333333333,0.15631165450257808,0.38,0.6900000000000001
+Abalone19,threshold_optimization,SMOTE + RF,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+Abalone19,threshold_optimization,SMOTE + RF,ghost,ghost_f1,0.25333333333333335,0.0057735026918962675,0.25,0.26
+Abalone19,threshold_optimization,SMOTE + RF,ghost,ghost_g_mean,0.25333333333333335,0.0057735026918962675,0.25,0.26
+Abalone19,threshold_optimization,SMOTE + RF,ghost,ghost_kappa,0.25333333333333335,0.0057735026918962675,0.25,0.26
+Abalone19,threshold_optimization,SMOTE + RF,ghost,ghost_mcc,0.25333333333333335,0.0057735026918962675,0.25,0.26
+Abalone19,threshold_optimization,SMOTE + RF,ghost,ghost_youden,0.25333333333333335,0.0057735026918962675,0.25,0.26
+Abalone19,threshold_optimization,SMOTE + RF,train_optimized,train_best_f1,0.2866666666666667,0.025166114784235843,0.26,0.31
+Abalone19,threshold_optimization,SMOTE + RF,train_optimized,train_best_g_mean,0.2866666666666667,0.025166114784235843,0.26,0.31
+Abalone19,threshold_optimization,SMOTE + RF,train_optimized,train_best_mcc,0.2866666666666667,0.025166114784235843,0.26,0.31
+Abalone19,threshold_optimization,SMOTE + RF,train_optimized,train_best_youden,0.2866666666666667,0.025166114784235843,0.26,0.31
+Abalone19,threshold_optimization,SMOTE + RF,validation_optimized,validation_best_f1,0.14666666666666667,0.07371114795831994,0.09,0.23
+Abalone19,threshold_optimization,SMOTE + RF,validation_optimized,validation_best_g_mean,0.043333333333333335,0.01527525231651947,0.03,0.060000000000000005
+Abalone19,threshold_optimization,SMOTE + RF,validation_optimized,validation_best_mcc,0.06333333333333334,0.02516611478423583,0.04,0.09
+Abalone19,threshold_optimization,SMOTE + RF,validation_optimized,validation_best_youden,0.043333333333333335,0.01527525231651947,0.03,0.060000000000000005
+Abalone19,threshold_optimization,SMOTE-ENN + RF,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+Abalone19,threshold_optimization,SMOTE-ENN + RF,ghost,ghost_f1,0.77,0.040000000000000036,0.73,0.81
+Abalone19,threshold_optimization,SMOTE-ENN + RF,ghost,ghost_g_mean,0.29,0.14177446878757827,0.18,0.45
+Abalone19,threshold_optimization,SMOTE-ENN + RF,ghost,ghost_kappa,0.77,0.040000000000000036,0.73,0.81
+Abalone19,threshold_optimization,SMOTE-ENN + RF,ghost,ghost_mcc,0.77,0.040000000000000036,0.73,0.81
+Abalone19,threshold_optimization,SMOTE-ENN + RF,ghost,ghost_youden,0.29,0.14177446878757827,0.18,0.45
+Abalone19,threshold_optimization,SMOTE-ENN + RF,train_optimized,train_best_f1,0.7766666666666667,0.04163331998932269,0.73,0.81
+Abalone19,threshold_optimization,SMOTE-ENN + RF,train_optimized,train_best_g_mean,0.1366666666666667,0.04163331998932267,0.09,0.17
+Abalone19,threshold_optimization,SMOTE-ENN + RF,train_optimized,train_best_mcc,0.7766666666666667,0.04163331998932269,0.73,0.81
+Abalone19,threshold_optimization,SMOTE-ENN + RF,train_optimized,train_best_youden,0.1366666666666667,0.04163331998932267,0.09,0.17
+Abalone19,threshold_optimization,SMOTE-ENN + RF,validation_optimized,validation_best_f1,0.32333333333333336,0.23459184413217213,0.060000000000000005,0.51
+Abalone19,threshold_optimization,SMOTE-ENN + RF,validation_optimized,validation_best_g_mean,0.05000000000000001,0.03605551275463989,0.01,0.08
+Abalone19,threshold_optimization,SMOTE-ENN + RF,validation_optimized,validation_best_mcc,0.32333333333333336,0.23459184413217213,0.060000000000000005,0.51
+Abalone19,threshold_optimization,SMOTE-ENN + RF,validation_optimized,validation_best_youden,0.06,0.02,0.04,0.08
+Abalone19,threshold_optimization,SMOTE-Tomek + RF,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+Abalone19,threshold_optimization,SMOTE-Tomek + RF,ghost,ghost_f1,0.35333333333333333,0.06110100926607786,0.3,0.42
+Abalone19,threshold_optimization,SMOTE-Tomek + RF,ghost,ghost_g_mean,0.35333333333333333,0.06110100926607786,0.3,0.42
+Abalone19,threshold_optimization,SMOTE-Tomek + RF,ghost,ghost_kappa,0.35333333333333333,0.06110100926607786,0.3,0.42
+Abalone19,threshold_optimization,SMOTE-Tomek + RF,ghost,ghost_mcc,0.35333333333333333,0.06110100926607786,0.3,0.42
+Abalone19,threshold_optimization,SMOTE-Tomek + RF,ghost,ghost_youden,0.35333333333333333,0.06110100926607786,0.3,0.42
+Abalone19,threshold_optimization,SMOTE-Tomek + RF,train_optimized,train_best_f1,0.5133333333333333,0.08144527815247077,0.42000000000000004,0.5700000000000001
+Abalone19,threshold_optimization,SMOTE-Tomek + RF,train_optimized,train_best_g_mean,0.4166666666666667,0.15502687938977983,0.26,0.5700000000000001
+Abalone19,threshold_optimization,SMOTE-Tomek + RF,train_optimized,train_best_mcc,0.5133333333333333,0.08144527815247077,0.42000000000000004,0.5700000000000001
+Abalone19,threshold_optimization,SMOTE-Tomek + RF,train_optimized,train_best_youden,0.4166666666666667,0.15502687938977983,0.26,0.5700000000000001
+Abalone19,threshold_optimization,SMOTE-Tomek + RF,validation_optimized,validation_best_f1,0.18666666666666668,0.07505553499465135,0.09999999999999999,0.23
+Abalone19,threshold_optimization,SMOTE-Tomek + RF,validation_optimized,validation_best_g_mean,0.03666666666666667,0.03785938897200183,0.01,0.08
+Abalone19,threshold_optimization,SMOTE-Tomek + RF,validation_optimized,validation_best_mcc,0.08333333333333333,0.03511884584284246,0.05,0.12
+Abalone19,threshold_optimization,SMOTE-Tomek + RF,validation_optimized,validation_best_youden,0.03666666666666667,0.03785938897200183,0.01,0.08
+Credit Card Fraud Detection,threshold_optimization,ADASYN + RF,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+Credit Card Fraud Detection,threshold_optimization,ADASYN + RF,ghost,ghost_f1,0.3866666666666667,0.015275252316519473,0.37,0.4
+Credit Card Fraud Detection,threshold_optimization,ADASYN + RF,ghost,ghost_g_mean,0.3866666666666667,0.015275252316519473,0.37,0.4
+Credit Card Fraud Detection,threshold_optimization,ADASYN + RF,ghost,ghost_kappa,0.3866666666666667,0.015275252316519473,0.37,0.4
+Credit Card Fraud Detection,threshold_optimization,ADASYN + RF,ghost,ghost_mcc,0.3866666666666667,0.015275252316519473,0.37,0.4
+Credit Card Fraud Detection,threshold_optimization,ADASYN + RF,ghost,ghost_youden,0.3866666666666667,0.015275252316519473,0.37,0.4
+Credit Card Fraud Detection,threshold_optimization,ADASYN + RF,train_optimized,train_best_f1,0.41,0.010000000000000009,0.4,0.42000000000000004
+Credit Card Fraud Detection,threshold_optimization,ADASYN + RF,train_optimized,train_best_g_mean,0.41,0.010000000000000009,0.4,0.42000000000000004
+Credit Card Fraud Detection,threshold_optimization,ADASYN + RF,train_optimized,train_best_mcc,0.41,0.010000000000000009,0.4,0.42000000000000004
+Credit Card Fraud Detection,threshold_optimization,ADASYN + RF,train_optimized,train_best_youden,0.41,0.010000000000000009,0.4,0.42000000000000004
+Credit Card Fraud Detection,threshold_optimization,ADASYN + RF,validation_optimized,validation_best_f1,0.5166666666666667,0.12897028081435405,0.41000000000000003,0.66
+Credit Card Fraud Detection,threshold_optimization,ADASYN + RF,validation_optimized,validation_best_g_mean,0.03666666666666667,0.005773502691896256,0.03,0.04
+Credit Card Fraud Detection,threshold_optimization,ADASYN + RF,validation_optimized,validation_best_mcc,0.5166666666666667,0.12897028081435405,0.41000000000000003,0.66
+Credit Card Fraud Detection,threshold_optimization,ADASYN + RF,validation_optimized,validation_best_youden,0.06,0.04358898943540673,0.03,0.11
+Credit Card Fraud Detection,threshold_optimization,Balanced Bagging,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+Credit Card Fraud Detection,threshold_optimization,Balanced Bagging,ghost,ghost_f1,0.96,0.017320508075688787,0.94,0.97
+Credit Card Fraud Detection,threshold_optimization,Balanced Bagging,ghost,ghost_g_mean,0.5866666666666667,0.04041451884327376,0.54,0.61
+Credit Card Fraud Detection,threshold_optimization,Balanced Bagging,ghost,ghost_kappa,0.96,0.017320508075688787,0.94,0.97
+Credit Card Fraud Detection,threshold_optimization,Balanced Bagging,ghost,ghost_mcc,0.96,0.017320508075688787,0.94,0.97
+Credit Card Fraud Detection,threshold_optimization,Balanced Bagging,ghost,ghost_youden,0.5866666666666667,0.04041451884327376,0.54,0.61
+Credit Card Fraud Detection,threshold_optimization,Balanced Bagging,train_optimized,train_best_f1,0.96,0.017320508075688724,0.9400000000000001,0.97
+Credit Card Fraud Detection,threshold_optimization,Balanced Bagging,train_optimized,train_best_g_mean,0.5733333333333334,0.0351188458428424,0.54,0.61
+Credit Card Fraud Detection,threshold_optimization,Balanced Bagging,train_optimized,train_best_mcc,0.9700000000000001,0.0,0.97,0.97
+Credit Card Fraud Detection,threshold_optimization,Balanced Bagging,train_optimized,train_best_youden,0.5733333333333334,0.0351188458428424,0.54,0.61
+Credit Card Fraud Detection,threshold_optimization,Balanced Bagging,validation_optimized,validation_best_f1,0.9500000000000001,0.03464101615137755,0.91,0.97
+Credit Card Fraud Detection,threshold_optimization,Balanced Bagging,validation_optimized,validation_best_g_mean,0.4733333333333334,0.11930353445448852,0.34,0.5700000000000001
+Credit Card Fraud Detection,threshold_optimization,Balanced Bagging,validation_optimized,validation_best_mcc,0.9500000000000001,0.03464101615137755,0.91,0.97
+Credit Card Fraud Detection,threshold_optimization,Balanced Bagging,validation_optimized,validation_best_youden,0.4733333333333334,0.11930353445448852,0.34,0.5700000000000001
+Credit Card Fraud Detection,threshold_optimization,Balanced Random Forest,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+Credit Card Fraud Detection,threshold_optimization,Balanced Random Forest,ghost,ghost_f1,0.9433333333333334,0.015275252316519411,0.93,0.96
+Credit Card Fraud Detection,threshold_optimization,Balanced Random Forest,ghost,ghost_g_mean,0.63,0.0,0.63,0.63
+Credit Card Fraud Detection,threshold_optimization,Balanced Random Forest,ghost,ghost_kappa,0.9433333333333334,0.015275252316519411,0.93,0.96
+Credit Card Fraud Detection,threshold_optimization,Balanced Random Forest,ghost,ghost_mcc,0.9433333333333334,0.015275252316519411,0.93,0.96
+Credit Card Fraud Detection,threshold_optimization,Balanced Random Forest,ghost,ghost_youden,0.63,0.0,0.63,0.63
+Credit Card Fraud Detection,threshold_optimization,Balanced Random Forest,train_optimized,train_best_f1,0.9366666666666666,0.011547005383792535,0.93,0.9500000000000001
+Credit Card Fraud Detection,threshold_optimization,Balanced Random Forest,train_optimized,train_best_g_mean,0.5766666666666667,0.02081665999466128,0.56,0.6
+Credit Card Fraud Detection,threshold_optimization,Balanced Random Forest,train_optimized,train_best_mcc,0.9366666666666666,0.011547005383792535,0.93,0.9500000000000001
+Credit Card Fraud Detection,threshold_optimization,Balanced Random Forest,train_optimized,train_best_youden,0.5766666666666667,0.02081665999466128,0.56,0.6
+Credit Card Fraud Detection,threshold_optimization,Balanced Random Forest,validation_optimized,validation_best_f1,0.8933333333333334,0.03511884584284249,0.86,0.93
+Credit Card Fraud Detection,threshold_optimization,Balanced Random Forest,validation_optimized,validation_best_g_mean,0.4566666666666667,0.11846237095944573,0.32,0.53
+Credit Card Fraud Detection,threshold_optimization,Balanced Random Forest,validation_optimized,validation_best_mcc,0.8933333333333334,0.03511884584284249,0.86,0.93
+Credit Card Fraud Detection,threshold_optimization,Balanced Random Forest,validation_optimized,validation_best_youden,0.4566666666666667,0.11846237095944573,0.32,0.53
+Credit Card Fraud Detection,threshold_optimization,Baseline RF,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+Credit Card Fraud Detection,threshold_optimization,Baseline RF,ghost,ghost_f1,0.29,0.009999999999999967,0.28,0.3
+Credit Card Fraud Detection,threshold_optimization,Baseline RF,ghost,ghost_g_mean,0.29,0.009999999999999967,0.28,0.3
+Credit Card Fraud Detection,threshold_optimization,Baseline RF,ghost,ghost_kappa,0.29,0.009999999999999967,0.28,0.3
+Credit Card Fraud Detection,threshold_optimization,Baseline RF,ghost,ghost_mcc,0.29,0.009999999999999967,0.28,0.3
+Credit Card Fraud Detection,threshold_optimization,Baseline RF,ghost,ghost_youden,0.29,0.009999999999999967,0.28,0.3
+Credit Card Fraud Detection,threshold_optimization,Baseline RF,train_optimized,train_best_f1,0.36000000000000004,0.01732050807568875,0.35000000000000003,0.38
+Credit Card Fraud Detection,threshold_optimization,Baseline RF,train_optimized,train_best_g_mean,0.36000000000000004,0.01732050807568875,0.35000000000000003,0.38
+Credit Card Fraud Detection,threshold_optimization,Baseline RF,train_optimized,train_best_mcc,0.36000000000000004,0.01732050807568875,0.35000000000000003,0.38
+Credit Card Fraud Detection,threshold_optimization,Baseline RF,train_optimized,train_best_youden,0.36000000000000004,0.01732050807568875,0.35000000000000003,0.38
+Credit Card Fraud Detection,threshold_optimization,Baseline RF,validation_optimized,validation_best_f1,0.45999999999999996,0.14525839046333952,0.32,0.61
+Credit Card Fraud Detection,threshold_optimization,Baseline RF,validation_optimized,validation_best_g_mean,0.02,0.01,0.01,0.03
+Credit Card Fraud Detection,threshold_optimization,Baseline RF,validation_optimized,validation_best_mcc,0.45999999999999996,0.14525839046333952,0.32,0.61
+Credit Card Fraud Detection,threshold_optimization,Baseline RF,validation_optimized,validation_best_youden,0.02,0.01,0.01,0.03
+Credit Card Fraud Detection,threshold_optimization,Borderline-SMOTE + RF,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+Credit Card Fraud Detection,threshold_optimization,Borderline-SMOTE + RF,ghost,ghost_f1,0.3233333333333333,0.020816659994661355,0.3,0.34
+Credit Card Fraud Detection,threshold_optimization,Borderline-SMOTE + RF,ghost,ghost_g_mean,0.3233333333333333,0.020816659994661355,0.3,0.34
+Credit Card Fraud Detection,threshold_optimization,Borderline-SMOTE + RF,ghost,ghost_kappa,0.3233333333333333,0.020816659994661355,0.3,0.34
+Credit Card Fraud Detection,threshold_optimization,Borderline-SMOTE + RF,ghost,ghost_mcc,0.3233333333333333,0.020816659994661355,0.3,0.34
+Credit Card Fraud Detection,threshold_optimization,Borderline-SMOTE + RF,ghost,ghost_youden,0.3233333333333333,0.020816659994661355,0.3,0.34
+Credit Card Fraud Detection,threshold_optimization,Borderline-SMOTE + RF,train_optimized,train_best_f1,0.38333333333333336,0.040414518843273795,0.34,0.42000000000000004
+Credit Card Fraud Detection,threshold_optimization,Borderline-SMOTE + RF,train_optimized,train_best_g_mean,0.38333333333333336,0.040414518843273795,0.34,0.42000000000000004
+Credit Card Fraud Detection,threshold_optimization,Borderline-SMOTE + RF,train_optimized,train_best_mcc,0.38333333333333336,0.040414518843273795,0.34,0.42000000000000004
+Credit Card Fraud Detection,threshold_optimization,Borderline-SMOTE + RF,train_optimized,train_best_youden,0.38333333333333336,0.040414518843273795,0.34,0.42000000000000004
+Credit Card Fraud Detection,threshold_optimization,Borderline-SMOTE + RF,validation_optimized,validation_best_f1,0.40666666666666673,0.011547005383792521,0.4,0.42000000000000004
+Credit Card Fraud Detection,threshold_optimization,Borderline-SMOTE + RF,validation_optimized,validation_best_g_mean,0.02,0.01,0.01,0.03
+Credit Card Fraud Detection,threshold_optimization,Borderline-SMOTE + RF,validation_optimized,validation_best_mcc,0.40666666666666673,0.011547005383792521,0.4,0.42000000000000004
+Credit Card Fraud Detection,threshold_optimization,Borderline-SMOTE + RF,validation_optimized,validation_best_youden,0.02,0.01,0.01,0.03
+Credit Card Fraud Detection,threshold_optimization,Class weight LogisticRegression,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+Credit Card Fraud Detection,threshold_optimization,Class weight LogisticRegression,ghost,ghost_f1,0.9899999999999999,0.0,0.99,0.99
+Credit Card Fraud Detection,threshold_optimization,Class weight LogisticRegression,ghost,ghost_g_mean,0.3433333333333333,0.040414518843273815,0.32,0.39
+Credit Card Fraud Detection,threshold_optimization,Class weight LogisticRegression,ghost,ghost_kappa,0.9899999999999999,0.0,0.99,0.99
+Credit Card Fraud Detection,threshold_optimization,Class weight LogisticRegression,ghost,ghost_mcc,0.9899999999999999,0.0,0.99,0.99
+Credit Card Fraud Detection,threshold_optimization,Class weight LogisticRegression,ghost,ghost_youden,0.3433333333333333,0.040414518843273815,0.32,0.39
+Credit Card Fraud Detection,threshold_optimization,Class weight LogisticRegression,train_optimized,train_best_f1,0.9899999999999999,0.0,0.99,0.99
+Credit Card Fraud Detection,threshold_optimization,Class weight LogisticRegression,train_optimized,train_best_g_mean,0.31,0.0,0.31,0.31
+Credit Card Fraud Detection,threshold_optimization,Class weight LogisticRegression,train_optimized,train_best_mcc,0.9899999999999999,0.0,0.99,0.99
+Credit Card Fraud Detection,threshold_optimization,Class weight LogisticRegression,train_optimized,train_best_youden,0.31,0.0,0.31,0.31
+Credit Card Fraud Detection,threshold_optimization,Class weight LogisticRegression,validation_optimized,validation_best_f1,0.9899999999999999,0.0,0.99,0.99
+Credit Card Fraud Detection,threshold_optimization,Class weight LogisticRegression,validation_optimized,validation_best_g_mean,0.4166666666666667,0.11846237095944573,0.28,0.49
+Credit Card Fraud Detection,threshold_optimization,Class weight LogisticRegression,validation_optimized,validation_best_mcc,0.9899999999999999,0.0,0.99,0.99
+Credit Card Fraud Detection,threshold_optimization,Class weight LogisticRegression,validation_optimized,validation_best_youden,0.4166666666666667,0.11846237095944573,0.28,0.49
+Credit Card Fraud Detection,threshold_optimization,Custom weighted log-loss LR,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+Credit Card Fraud Detection,threshold_optimization,Custom weighted log-loss LR,ghost,ghost_f1,0.45,0.06,0.39,0.51
+Credit Card Fraud Detection,threshold_optimization,Custom weighted log-loss LR,ghost,ghost_g_mean,0.01,0.0,0.01,0.01
+Credit Card Fraud Detection,threshold_optimization,Custom weighted log-loss LR,ghost,ghost_kappa,0.45,0.06,0.39,0.51
+Credit Card Fraud Detection,threshold_optimization,Custom weighted log-loss LR,ghost,ghost_mcc,0.45,0.06,0.39,0.51
+Credit Card Fraud Detection,threshold_optimization,Custom weighted log-loss LR,ghost,ghost_youden,0.01,0.0,0.01,0.01
+Credit Card Fraud Detection,threshold_optimization,Custom weighted log-loss LR,train_optimized,train_best_f1,0.52,0.0,0.52,0.52
+Credit Card Fraud Detection,threshold_optimization,Custom weighted log-loss LR,train_optimized,train_best_g_mean,0.01,0.0,0.01,0.01
+Credit Card Fraud Detection,threshold_optimization,Custom weighted log-loss LR,train_optimized,train_best_mcc,0.52,0.0,0.52,0.52
+Credit Card Fraud Detection,threshold_optimization,Custom weighted log-loss LR,train_optimized,train_best_youden,0.01,0.0,0.01,0.01
+Credit Card Fraud Detection,threshold_optimization,Custom weighted log-loss LR,validation_optimized,validation_best_f1,0.5066666666666667,0.14742229591663988,0.34,0.62
+Credit Card Fraud Detection,threshold_optimization,Custom weighted log-loss LR,validation_optimized,validation_best_g_mean,0.013333333333333334,0.005773502691896258,0.01,0.02
+Credit Card Fraud Detection,threshold_optimization,Custom weighted log-loss LR,validation_optimized,validation_best_mcc,0.5066666666666667,0.14742229591663988,0.34,0.62
+Credit Card Fraud Detection,threshold_optimization,Custom weighted log-loss LR,validation_optimized,validation_best_youden,0.013333333333333334,0.005773502691896258,0.01,0.02
+Credit Card Fraud Detection,threshold_optimization,EasyEnsemble,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+Credit Card Fraud Detection,threshold_optimization,EasyEnsemble,ghost,ghost_f1,0.6666666666666666,0.0057735026918962545,0.66,0.67
+Credit Card Fraud Detection,threshold_optimization,EasyEnsemble,ghost,ghost_g_mean,0.49333333333333335,0.0057735026918962675,0.49,0.5
+Credit Card Fraud Detection,threshold_optimization,EasyEnsemble,ghost,ghost_kappa,0.6666666666666666,0.0057735026918962545,0.66,0.67
+Credit Card Fraud Detection,threshold_optimization,EasyEnsemble,ghost,ghost_mcc,0.6666666666666666,0.0057735026918962545,0.66,0.67
+Credit Card Fraud Detection,threshold_optimization,EasyEnsemble,ghost,ghost_youden,0.49333333333333335,0.0057735026918962675,0.49,0.5
+Credit Card Fraud Detection,threshold_optimization,EasyEnsemble,train_optimized,train_best_f1,0.6633333333333334,0.005773502691896279,0.66,0.67
+Credit Card Fraud Detection,threshold_optimization,EasyEnsemble,train_optimized,train_best_g_mean,0.49333333333333335,0.0057735026918962675,0.49,0.5
+Credit Card Fraud Detection,threshold_optimization,EasyEnsemble,train_optimized,train_best_mcc,0.6666666666666666,0.0057735026918962545,0.66,0.67
+Credit Card Fraud Detection,threshold_optimization,EasyEnsemble,train_optimized,train_best_youden,0.49333333333333335,0.0057735026918962675,0.49,0.5
+Credit Card Fraud Detection,threshold_optimization,EasyEnsemble,validation_optimized,validation_best_f1,0.6566666666666667,0.005773502691896279,0.65,0.66
+Credit Card Fraud Detection,threshold_optimization,EasyEnsemble,validation_optimized,validation_best_g_mean,0.51,0.020000000000000018,0.49,0.53
+Credit Card Fraud Detection,threshold_optimization,EasyEnsemble,validation_optimized,validation_best_mcc,0.6566666666666667,0.005773502691896279,0.65,0.66
+Credit Card Fraud Detection,threshold_optimization,EasyEnsemble,validation_optimized,validation_best_youden,0.51,0.020000000000000018,0.49,0.53
+Credit Card Fraud Detection,threshold_optimization,RF (balanced_subsample),fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+Credit Card Fraud Detection,threshold_optimization,RF (balanced_subsample),ghost,ghost_f1,0.32666666666666666,0.015275252316519482,0.31,0.34
+Credit Card Fraud Detection,threshold_optimization,RF (balanced_subsample),ghost,ghost_g_mean,0.32666666666666666,0.015275252316519482,0.31,0.34
+Credit Card Fraud Detection,threshold_optimization,RF (balanced_subsample),ghost,ghost_kappa,0.32666666666666666,0.015275252316519482,0.31,0.34
+Credit Card Fraud Detection,threshold_optimization,RF (balanced_subsample),ghost,ghost_mcc,0.32666666666666666,0.015275252316519482,0.31,0.34
+Credit Card Fraud Detection,threshold_optimization,RF (balanced_subsample),ghost,ghost_youden,0.32666666666666666,0.015275252316519482,0.31,0.34
+Credit Card Fraud Detection,threshold_optimization,RF (balanced_subsample),train_optimized,train_best_f1,0.36000000000000004,0.017320508075688756,0.35000000000000003,0.38
+Credit Card Fraud Detection,threshold_optimization,RF (balanced_subsample),train_optimized,train_best_g_mean,0.36000000000000004,0.017320508075688756,0.35000000000000003,0.38
+Credit Card Fraud Detection,threshold_optimization,RF (balanced_subsample),train_optimized,train_best_mcc,0.36000000000000004,0.017320508075688756,0.35000000000000003,0.38
+Credit Card Fraud Detection,threshold_optimization,RF (balanced_subsample),train_optimized,train_best_youden,0.36000000000000004,0.017320508075688756,0.35000000000000003,0.38
+Credit Card Fraud Detection,threshold_optimization,RF (balanced_subsample),validation_optimized,validation_best_f1,0.2366666666666667,0.025166114784235825,0.21000000000000002,0.26
+Credit Card Fraud Detection,threshold_optimization,RF (balanced_subsample),validation_optimized,validation_best_g_mean,0.016666666666666666,0.005773502691896258,0.01,0.02
+Credit Card Fraud Detection,threshold_optimization,RF (balanced_subsample),validation_optimized,validation_best_mcc,0.37333333333333335,0.1594783161854092,0.24000000000000002,0.55
+Credit Card Fraud Detection,threshold_optimization,RF (balanced_subsample),validation_optimized,validation_best_youden,0.016666666666666666,0.005773502691896258,0.01,0.02
+Credit Card Fraud Detection,threshold_optimization,RUSBoost,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+Credit Card Fraud Detection,threshold_optimization,RUSBoost,ghost,ghost_f1,0.7799999999999999,0.034641016151377574,0.74,0.8
+Credit Card Fraud Detection,threshold_optimization,RUSBoost,ghost,ghost_g_mean,0.27,0.03000000000000002,0.24,0.3
+Credit Card Fraud Detection,threshold_optimization,RUSBoost,ghost,ghost_kappa,0.7799999999999999,0.034641016151377574,0.74,0.8
+Credit Card Fraud Detection,threshold_optimization,RUSBoost,ghost,ghost_mcc,0.7799999999999999,0.034641016151377574,0.74,0.8
+Credit Card Fraud Detection,threshold_optimization,RUSBoost,ghost,ghost_youden,0.27,0.03000000000000002,0.24,0.3
+Credit Card Fraud Detection,threshold_optimization,RUSBoost,train_optimized,train_best_f1,0.7799999999999999,0.034641016151377574,0.74,0.8
+Credit Card Fraud Detection,threshold_optimization,RUSBoost,train_optimized,train_best_g_mean,0.27,0.030000000000000002,0.24000000000000002,0.3
+Credit Card Fraud Detection,threshold_optimization,RUSBoost,train_optimized,train_best_mcc,0.7799999999999999,0.034641016151377574,0.74,0.8
+Credit Card Fraud Detection,threshold_optimization,RUSBoost,train_optimized,train_best_youden,0.27,0.030000000000000002,0.24000000000000002,0.3
+Credit Card Fraud Detection,threshold_optimization,RUSBoost,validation_optimized,validation_best_f1,0.5533333333333333,0.37541088600802897,0.12,0.78
+Credit Card Fraud Detection,threshold_optimization,RUSBoost,validation_optimized,validation_best_g_mean,0.47000000000000003,0.3064310689208912,0.12,0.6900000000000001
+Credit Card Fraud Detection,threshold_optimization,RUSBoost,validation_optimized,validation_best_mcc,0.5533333333333333,0.37541088600802897,0.12,0.78
+Credit Card Fraud Detection,threshold_optimization,RUSBoost,validation_optimized,validation_best_youden,0.47000000000000003,0.3064310689208912,0.12,0.6900000000000001
+Credit Card Fraud Detection,threshold_optimization,Random Oversampling + RF,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+Credit Card Fraud Detection,threshold_optimization,Random Oversampling + RF,ghost,ghost_f1,0.33,0.026457513110645876,0.31,0.36
+Credit Card Fraud Detection,threshold_optimization,Random Oversampling + RF,ghost,ghost_g_mean,0.33,0.026457513110645876,0.31,0.36
+Credit Card Fraud Detection,threshold_optimization,Random Oversampling + RF,ghost,ghost_kappa,0.33,0.026457513110645876,0.31,0.36
+Credit Card Fraud Detection,threshold_optimization,Random Oversampling + RF,ghost,ghost_mcc,0.33,0.026457513110645876,0.31,0.36
+Credit Card Fraud Detection,threshold_optimization,Random Oversampling + RF,ghost,ghost_youden,0.33,0.026457513110645876,0.31,0.36
+Credit Card Fraud Detection,threshold_optimization,Random Oversampling + RF,train_optimized,train_best_f1,0.37333333333333335,0.020816659994661302,0.35000000000000003,0.39
+Credit Card Fraud Detection,threshold_optimization,Random Oversampling + RF,train_optimized,train_best_g_mean,0.37333333333333335,0.020816659994661302,0.35000000000000003,0.39
+Credit Card Fraud Detection,threshold_optimization,Random Oversampling + RF,train_optimized,train_best_mcc,0.37333333333333335,0.020816659994661302,0.35000000000000003,0.39
+Credit Card Fraud Detection,threshold_optimization,Random Oversampling + RF,train_optimized,train_best_youden,0.37333333333333335,0.020816659994661302,0.35000000000000003,0.39
+Credit Card Fraud Detection,threshold_optimization,Random Oversampling + RF,validation_optimized,validation_best_f1,0.47000000000000003,0.21633307652783937,0.29000000000000004,0.7100000000000001
+Credit Card Fraud Detection,threshold_optimization,Random Oversampling + RF,validation_optimized,validation_best_g_mean,0.023333333333333334,0.011547005383792516,0.01,0.03
+Credit Card Fraud Detection,threshold_optimization,Random Oversampling + RF,validation_optimized,validation_best_mcc,0.47000000000000003,0.21633307652783937,0.29000000000000004,0.7100000000000001
+Credit Card Fraud Detection,threshold_optimization,Random Oversampling + RF,validation_optimized,validation_best_youden,0.023333333333333334,0.011547005383792516,0.01,0.03
+Credit Card Fraud Detection,threshold_optimization,Random Undersampling + RF,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+Credit Card Fraud Detection,threshold_optimization,Random Undersampling + RF,ghost,ghost_f1,0.9666666666666667,0.005773502691896279,0.96,0.97
+Credit Card Fraud Detection,threshold_optimization,Random Undersampling + RF,ghost,ghost_g_mean,0.6133333333333333,0.011547005383792509,0.6,0.62
+Credit Card Fraud Detection,threshold_optimization,Random Undersampling + RF,ghost,ghost_kappa,0.9666666666666667,0.005773502691896279,0.96,0.97
+Credit Card Fraud Detection,threshold_optimization,Random Undersampling + RF,ghost,ghost_mcc,0.9700000000000001,0.0,0.97,0.97
+Credit Card Fraud Detection,threshold_optimization,Random Undersampling + RF,ghost,ghost_youden,0.6133333333333333,0.011547005383792509,0.6,0.62
+Credit Card Fraud Detection,threshold_optimization,Random Undersampling + RF,train_optimized,train_best_f1,0.9566666666666667,0.005773502691896279,0.9500000000000001,0.9600000000000001
+Credit Card Fraud Detection,threshold_optimization,Random Undersampling + RF,train_optimized,train_best_g_mean,0.5700000000000001,0.017320508075688787,0.55,0.5800000000000001
+Credit Card Fraud Detection,threshold_optimization,Random Undersampling + RF,train_optimized,train_best_mcc,0.9566666666666667,0.005773502691896279,0.9500000000000001,0.9600000000000001
+Credit Card Fraud Detection,threshold_optimization,Random Undersampling + RF,train_optimized,train_best_youden,0.5700000000000001,0.017320508075688787,0.55,0.5800000000000001
+Credit Card Fraud Detection,threshold_optimization,Random Undersampling + RF,validation_optimized,validation_best_f1,0.91,0.040000000000000036,0.87,0.9500000000000001
+Credit Card Fraud Detection,threshold_optimization,Random Undersampling + RF,validation_optimized,validation_best_g_mean,0.5933333333333334,0.15821925715074425,0.42000000000000004,0.73
+Credit Card Fraud Detection,threshold_optimization,Random Undersampling + RF,validation_optimized,validation_best_mcc,0.91,0.040000000000000036,0.87,0.9500000000000001
+Credit Card Fraud Detection,threshold_optimization,Random Undersampling + RF,validation_optimized,validation_best_youden,0.5933333333333334,0.15821925715074425,0.42000000000000004,0.73
+Credit Card Fraud Detection,threshold_optimization,SMOTE + RF,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+Credit Card Fraud Detection,threshold_optimization,SMOTE + RF,ghost,ghost_f1,0.3833333333333333,0.011547005383792533,0.37,0.39
+Credit Card Fraud Detection,threshold_optimization,SMOTE + RF,ghost,ghost_g_mean,0.3833333333333333,0.011547005383792533,0.37,0.39
+Credit Card Fraud Detection,threshold_optimization,SMOTE + RF,ghost,ghost_kappa,0.3833333333333333,0.011547005383792533,0.37,0.39
+Credit Card Fraud Detection,threshold_optimization,SMOTE + RF,ghost,ghost_mcc,0.3833333333333333,0.011547005383792533,0.37,0.39
+Credit Card Fraud Detection,threshold_optimization,SMOTE + RF,ghost,ghost_youden,0.3833333333333333,0.011547005383792533,0.37,0.39
+Credit Card Fraud Detection,threshold_optimization,SMOTE + RF,train_optimized,train_best_f1,0.41,0.010000000000000009,0.4,0.42000000000000004
+Credit Card Fraud Detection,threshold_optimization,SMOTE + RF,train_optimized,train_best_g_mean,0.41,0.010000000000000009,0.4,0.42000000000000004
+Credit Card Fraud Detection,threshold_optimization,SMOTE + RF,train_optimized,train_best_mcc,0.41,0.010000000000000009,0.4,0.42000000000000004
+Credit Card Fraud Detection,threshold_optimization,SMOTE + RF,train_optimized,train_best_youden,0.41,0.010000000000000009,0.4,0.42000000000000004
+Credit Card Fraud Detection,threshold_optimization,SMOTE + RF,validation_optimized,validation_best_f1,0.6133333333333334,0.27024680078279073,0.41000000000000003,0.92
+Credit Card Fraud Detection,threshold_optimization,SMOTE + RF,validation_optimized,validation_best_g_mean,0.06,0.017320508075688773,0.05,0.08
+Credit Card Fraud Detection,threshold_optimization,SMOTE + RF,validation_optimized,validation_best_mcc,0.6133333333333334,0.27024680078279073,0.41000000000000003,0.92
+Credit Card Fraud Detection,threshold_optimization,SMOTE + RF,validation_optimized,validation_best_youden,0.06,0.017320508075688773,0.05,0.08
+Credit Card Fraud Detection,threshold_optimization,SMOTE-ENN + RF,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+Credit Card Fraud Detection,threshold_optimization,SMOTE-ENN + RF,ghost,ghost_f1,0.49666666666666665,0.020816659994661355,0.48,0.52
+Credit Card Fraud Detection,threshold_optimization,SMOTE-ENN + RF,ghost,ghost_g_mean,0.043333333333333335,0.03214550253664319,0.02,0.08
+Credit Card Fraud Detection,threshold_optimization,SMOTE-ENN + RF,ghost,ghost_kappa,0.49666666666666665,0.020816659994661355,0.48,0.52
+Credit Card Fraud Detection,threshold_optimization,SMOTE-ENN + RF,ghost,ghost_mcc,0.49666666666666665,0.020816659994661355,0.48,0.52
+Credit Card Fraud Detection,threshold_optimization,SMOTE-ENN + RF,ghost,ghost_youden,0.043333333333333335,0.03214550253664319,0.02,0.08
+Credit Card Fraud Detection,threshold_optimization,SMOTE-ENN + RF,train_optimized,train_best_f1,0.5366666666666667,0.03785938897200186,0.51,0.5800000000000001
+Credit Card Fraud Detection,threshold_optimization,SMOTE-ENN + RF,train_optimized,train_best_g_mean,0.03333333333333333,0.015275252316519468,0.02,0.05
+Credit Card Fraud Detection,threshold_optimization,SMOTE-ENN + RF,train_optimized,train_best_mcc,0.5366666666666667,0.03785938897200186,0.51,0.5800000000000001
+Credit Card Fraud Detection,threshold_optimization,SMOTE-ENN + RF,train_optimized,train_best_youden,0.03333333333333333,0.015275252316519468,0.02,0.05
+Credit Card Fraud Detection,threshold_optimization,SMOTE-ENN + RF,validation_optimized,validation_best_f1,0.49333333333333335,0.16258331197676265,0.31,0.62
+Credit Card Fraud Detection,threshold_optimization,SMOTE-ENN + RF,validation_optimized,validation_best_g_mean,0.03,0.017320508075688777,0.02,0.05
+Credit Card Fraud Detection,threshold_optimization,SMOTE-ENN + RF,validation_optimized,validation_best_mcc,0.49333333333333335,0.16258331197676265,0.31,0.62
+Credit Card Fraud Detection,threshold_optimization,SMOTE-ENN + RF,validation_optimized,validation_best_youden,0.03,0.017320508075688777,0.02,0.05
+Credit Card Fraud Detection,threshold_optimization,SMOTE-Tomek + RF,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+Credit Card Fraud Detection,threshold_optimization,SMOTE-Tomek + RF,ghost,ghost_f1,0.45999999999999996,0.11135528725660043,0.36,0.58
+Credit Card Fraud Detection,threshold_optimization,SMOTE-Tomek + RF,ghost,ghost_g_mean,0.45999999999999996,0.11135528725660043,0.36,0.58
+Credit Card Fraud Detection,threshold_optimization,SMOTE-Tomek + RF,ghost,ghost_kappa,0.45999999999999996,0.11135528725660043,0.36,0.58
+Credit Card Fraud Detection,threshold_optimization,SMOTE-Tomek + RF,ghost,ghost_mcc,0.45999999999999996,0.11135528725660043,0.36,0.58
+Credit Card Fraud Detection,threshold_optimization,SMOTE-Tomek + RF,ghost,ghost_youden,0.45999999999999996,0.11135528725660043,0.36,0.58
+Credit Card Fraud Detection,threshold_optimization,SMOTE-Tomek + RF,train_optimized,train_best_f1,0.4733333333333334,0.08504900548115385,0.41000000000000003,0.5700000000000001
+Credit Card Fraud Detection,threshold_optimization,SMOTE-Tomek + RF,train_optimized,train_best_g_mean,0.25666666666666665,0.16258331197676265,0.13,0.44
+Credit Card Fraud Detection,threshold_optimization,SMOTE-Tomek + RF,train_optimized,train_best_mcc,0.4733333333333334,0.08504900548115385,0.41000000000000003,0.5700000000000001
+Credit Card Fraud Detection,threshold_optimization,SMOTE-Tomek + RF,train_optimized,train_best_youden,0.25666666666666665,0.16258331197676265,0.13,0.44
+Credit Card Fraud Detection,threshold_optimization,SMOTE-Tomek + RF,validation_optimized,validation_best_f1,0.6,0.26153393661244045,0.42000000000000004,0.9
+Credit Card Fraud Detection,threshold_optimization,SMOTE-Tomek + RF,validation_optimized,validation_best_g_mean,0.06333333333333334,0.0404145188432738,0.04,0.11
+Credit Card Fraud Detection,threshold_optimization,SMOTE-Tomek + RF,validation_optimized,validation_best_mcc,0.6,0.26153393661244045,0.42000000000000004,0.9
+Credit Card Fraud Detection,threshold_optimization,SMOTE-Tomek + RF,validation_optimized,validation_best_youden,0.06333333333333334,0.0404145188432738,0.04,0.11
+Mammography,threshold_optimization,ADASYN + RF,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+Mammography,threshold_optimization,ADASYN + RF,ghost,ghost_f1,0.3333333333333333,0.025166114784235832,0.31,0.36
+Mammography,threshold_optimization,ADASYN + RF,ghost,ghost_g_mean,0.32,0.017320508075688787,0.31,0.34
+Mammography,threshold_optimization,ADASYN + RF,ghost,ghost_kappa,0.3333333333333333,0.025166114784235832,0.31,0.36
+Mammography,threshold_optimization,ADASYN + RF,ghost,ghost_mcc,0.3333333333333333,0.025166114784235832,0.31,0.36
+Mammography,threshold_optimization,ADASYN + RF,ghost,ghost_youden,0.32,0.017320508075688787,0.31,0.34
+Mammography,threshold_optimization,ADASYN + RF,train_optimized,train_best_f1,0.37000000000000005,0.045825756949558406,0.33,0.42000000000000004
+Mammography,threshold_optimization,ADASYN + RF,train_optimized,train_best_g_mean,0.37000000000000005,0.045825756949558406,0.33,0.42000000000000004
+Mammography,threshold_optimization,ADASYN + RF,train_optimized,train_best_mcc,0.37000000000000005,0.045825756949558406,0.33,0.42000000000000004
+Mammography,threshold_optimization,ADASYN + RF,train_optimized,train_best_youden,0.37000000000000005,0.045825756949558406,0.33,0.42000000000000004
+Mammography,threshold_optimization,ADASYN + RF,validation_optimized,validation_best_f1,0.4733333333333334,0.11547005383792516,0.34,0.54
+Mammography,threshold_optimization,ADASYN + RF,validation_optimized,validation_best_g_mean,0.13,0.07810249675906655,0.04,0.18000000000000002
+Mammography,threshold_optimization,ADASYN + RF,validation_optimized,validation_best_mcc,0.6633333333333334,0.1365039681962885,0.54,0.81
+Mammography,threshold_optimization,ADASYN + RF,validation_optimized,validation_best_youden,0.13,0.07810249675906655,0.04,0.18000000000000002
+Mammography,threshold_optimization,Balanced Bagging,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+Mammography,threshold_optimization,Balanced Bagging,ghost,ghost_f1,0.8833333333333333,0.051316014394468826,0.84,0.94
+Mammography,threshold_optimization,Balanced Bagging,ghost,ghost_g_mean,0.5833333333333334,0.023094010767585042,0.57,0.61
+Mammography,threshold_optimization,Balanced Bagging,ghost,ghost_kappa,0.8833333333333333,0.051316014394468826,0.84,0.94
+Mammography,threshold_optimization,Balanced Bagging,ghost,ghost_mcc,0.8833333333333333,0.051316014394468826,0.84,0.94
+Mammography,threshold_optimization,Balanced Bagging,ghost,ghost_youden,0.5833333333333334,0.023094010767585042,0.57,0.61
+Mammography,threshold_optimization,Balanced Bagging,train_optimized,train_best_f1,0.9066666666666667,0.03511884584284248,0.87,0.9400000000000001
+Mammography,threshold_optimization,Balanced Bagging,train_optimized,train_best_g_mean,0.56,0.017320508075688787,0.54,0.5700000000000001
+Mammography,threshold_optimization,Balanced Bagging,train_optimized,train_best_mcc,0.9066666666666667,0.03511884584284248,0.87,0.9400000000000001
+Mammography,threshold_optimization,Balanced Bagging,train_optimized,train_best_youden,0.55,0.017320508075688787,0.54,0.5700000000000001
+Mammography,threshold_optimization,Balanced Bagging,validation_optimized,validation_best_f1,0.9066666666666667,0.03511884584284251,0.87,0.9400000000000001
+Mammography,threshold_optimization,Balanced Bagging,validation_optimized,validation_best_g_mean,0.3966666666666667,0.15307950004273382,0.28,0.5700000000000001
+Mammography,threshold_optimization,Balanced Bagging,validation_optimized,validation_best_mcc,0.9066666666666667,0.03511884584284251,0.87,0.9400000000000001
+Mammography,threshold_optimization,Balanced Bagging,validation_optimized,validation_best_youden,0.4833333333333334,0.1250333288900737,0.34,0.5700000000000001
+Mammography,threshold_optimization,Balanced Random Forest,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+Mammography,threshold_optimization,Balanced Random Forest,ghost,ghost_f1,0.8466666666666667,0.030550504633038964,0.82,0.88
+Mammography,threshold_optimization,Balanced Random Forest,ghost,ghost_g_mean,0.6366666666666667,0.023094010767585042,0.61,0.65
+Mammography,threshold_optimization,Balanced Random Forest,ghost,ghost_kappa,0.8466666666666667,0.030550504633038964,0.82,0.88
+Mammography,threshold_optimization,Balanced Random Forest,ghost,ghost_mcc,0.84,0.05291502622129181,0.8,0.9
+Mammography,threshold_optimization,Balanced Random Forest,ghost,ghost_youden,0.6366666666666667,0.023094010767585042,0.61,0.65
+Mammography,threshold_optimization,Balanced Random Forest,train_optimized,train_best_f1,0.88,0.0435889894354067,0.8300000000000001,0.91
+Mammography,threshold_optimization,Balanced Random Forest,train_optimized,train_best_g_mean,0.61,0.010000000000000009,0.6,0.62
+Mammography,threshold_optimization,Balanced Random Forest,train_optimized,train_best_mcc,0.88,0.0435889894354067,0.8300000000000001,0.91
+Mammography,threshold_optimization,Balanced Random Forest,train_optimized,train_best_youden,0.61,0.010000000000000009,0.6,0.62
+Mammography,threshold_optimization,Balanced Random Forest,validation_optimized,validation_best_f1,0.8733333333333334,0.0057735026918962545,0.87,0.88
+Mammography,threshold_optimization,Balanced Random Forest,validation_optimized,validation_best_g_mean,0.42,0.039999999999999994,0.38,0.46
+Mammography,threshold_optimization,Balanced Random Forest,validation_optimized,validation_best_mcc,0.8766666666666666,0.005773502691896279,0.87,0.88
+Mammography,threshold_optimization,Balanced Random Forest,validation_optimized,validation_best_youden,0.42,0.039999999999999994,0.38,0.46
+Mammography,threshold_optimization,Baseline RF,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+Mammography,threshold_optimization,Baseline RF,ghost,ghost_f1,0.27,0.02645751311064592,0.25,0.3
+Mammography,threshold_optimization,Baseline RF,ghost,ghost_g_mean,0.24,0.019999999999999997,0.22,0.26
+Mammography,threshold_optimization,Baseline RF,ghost,ghost_kappa,0.27,0.02645751311064592,0.25,0.3
+Mammography,threshold_optimization,Baseline RF,ghost,ghost_mcc,0.27,0.02645751311064592,0.25,0.3
+Mammography,threshold_optimization,Baseline RF,ghost,ghost_youden,0.24,0.019999999999999997,0.22,0.26
+Mammography,threshold_optimization,Baseline RF,train_optimized,train_best_f1,0.38333333333333336,0.03055050463303892,0.35000000000000003,0.41000000000000003
+Mammography,threshold_optimization,Baseline RF,train_optimized,train_best_g_mean,0.38333333333333336,0.03055050463303892,0.35000000000000003,0.41000000000000003
+Mammography,threshold_optimization,Baseline RF,train_optimized,train_best_mcc,0.38333333333333336,0.03055050463303892,0.35000000000000003,0.41000000000000003
+Mammography,threshold_optimization,Baseline RF,train_optimized,train_best_youden,0.38333333333333336,0.03055050463303892,0.35000000000000003,0.41000000000000003
+Mammography,threshold_optimization,Baseline RF,validation_optimized,validation_best_f1,0.3566666666666667,0.10692676621563627,0.24000000000000002,0.45
+Mammography,threshold_optimization,Baseline RF,validation_optimized,validation_best_g_mean,0.04666666666666667,0.011547005383792518,0.04,0.060000000000000005
+Mammography,threshold_optimization,Baseline RF,validation_optimized,validation_best_mcc,0.37666666666666665,0.13503086067019396,0.24000000000000002,0.51
+Mammography,threshold_optimization,Baseline RF,validation_optimized,validation_best_youden,0.04666666666666667,0.011547005383792518,0.04,0.060000000000000005
+Mammography,threshold_optimization,Borderline-SMOTE + RF,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+Mammography,threshold_optimization,Borderline-SMOTE + RF,ghost,ghost_f1,0.34,0.017320508075688777,0.32,0.35
+Mammography,threshold_optimization,Borderline-SMOTE + RF,ghost,ghost_g_mean,0.3333333333333333,0.02081665999466133,0.31,0.35
+Mammography,threshold_optimization,Borderline-SMOTE + RF,ghost,ghost_kappa,0.34,0.017320508075688777,0.32,0.35
+Mammography,threshold_optimization,Borderline-SMOTE + RF,ghost,ghost_mcc,0.34,0.017320508075688777,0.32,0.35
+Mammography,threshold_optimization,Borderline-SMOTE + RF,ghost,ghost_youden,0.3333333333333333,0.02081665999466133,0.31,0.35
+Mammography,threshold_optimization,Borderline-SMOTE + RF,train_optimized,train_best_f1,0.38333333333333336,0.030550504633038947,0.35000000000000003,0.41000000000000003
+Mammography,threshold_optimization,Borderline-SMOTE + RF,train_optimized,train_best_g_mean,0.38333333333333336,0.030550504633038947,0.35000000000000003,0.41000000000000003
+Mammography,threshold_optimization,Borderline-SMOTE + RF,train_optimized,train_best_mcc,0.38333333333333336,0.030550504633038947,0.35000000000000003,0.41000000000000003
+Mammography,threshold_optimization,Borderline-SMOTE + RF,train_optimized,train_best_youden,0.38333333333333336,0.030550504633038947,0.35000000000000003,0.41000000000000003
+Mammography,threshold_optimization,Borderline-SMOTE + RF,validation_optimized,validation_best_f1,0.5233333333333333,0.08504900548115384,0.44,0.61
+Mammography,threshold_optimization,Borderline-SMOTE + RF,validation_optimized,validation_best_g_mean,0.05000000000000001,0.01732050807568878,0.03,0.060000000000000005
+Mammography,threshold_optimization,Borderline-SMOTE + RF,validation_optimized,validation_best_mcc,0.6066666666666666,0.1650252505931542,0.44,0.77
+Mammography,threshold_optimization,Borderline-SMOTE + RF,validation_optimized,validation_best_youden,0.05000000000000001,0.01732050807568878,0.03,0.060000000000000005
+Mammography,threshold_optimization,Class weight LogisticRegression,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+Mammography,threshold_optimization,Class weight LogisticRegression,ghost,ghost_f1,0.94,0.0,0.94,0.94
+Mammography,threshold_optimization,Class weight LogisticRegression,ghost,ghost_g_mean,0.52,0.0,0.52,0.52
+Mammography,threshold_optimization,Class weight LogisticRegression,ghost,ghost_kappa,0.94,0.0,0.94,0.94
+Mammography,threshold_optimization,Class weight LogisticRegression,ghost,ghost_mcc,0.94,0.0,0.94,0.94
+Mammography,threshold_optimization,Class weight LogisticRegression,ghost,ghost_youden,0.52,0.0,0.52,0.52
+Mammography,threshold_optimization,Class weight LogisticRegression,train_optimized,train_best_f1,0.9400000000000001,0.0,0.9400000000000001,0.9400000000000001
+Mammography,threshold_optimization,Class weight LogisticRegression,train_optimized,train_best_g_mean,0.51,0.0,0.51,0.51
+Mammography,threshold_optimization,Class weight LogisticRegression,train_optimized,train_best_mcc,0.9400000000000001,0.0,0.9400000000000001,0.9400000000000001
+Mammography,threshold_optimization,Class weight LogisticRegression,train_optimized,train_best_youden,0.51,0.0,0.51,0.51
+Mammography,threshold_optimization,Class weight LogisticRegression,validation_optimized,validation_best_f1,0.9466666666666668,0.011547005383792509,0.9400000000000001,0.9600000000000001
+Mammography,threshold_optimization,Class weight LogisticRegression,validation_optimized,validation_best_g_mean,0.3866666666666667,0.020816659994661355,0.37,0.41000000000000003
+Mammography,threshold_optimization,Class weight LogisticRegression,validation_optimized,validation_best_mcc,0.9466666666666668,0.011547005383792509,0.9400000000000001,0.9600000000000001
+Mammography,threshold_optimization,Class weight LogisticRegression,validation_optimized,validation_best_youden,0.34,0.0608276253029822,0.27,0.38
+Mammography,threshold_optimization,Custom weighted log-loss LR,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+Mammography,threshold_optimization,Custom weighted log-loss LR,ghost,ghost_f1,0.6166666666666667,0.03785938897200186,0.59,0.66
+Mammography,threshold_optimization,Custom weighted log-loss LR,ghost,ghost_g_mean,0.14,0.0,0.14,0.14
+Mammography,threshold_optimization,Custom weighted log-loss LR,ghost,ghost_kappa,0.6166666666666667,0.03785938897200186,0.59,0.66
+Mammography,threshold_optimization,Custom weighted log-loss LR,ghost,ghost_mcc,0.63,0.036055512754639925,0.59,0.66
+Mammography,threshold_optimization,Custom weighted log-loss LR,ghost,ghost_youden,0.14,0.0,0.14,0.14
+Mammography,threshold_optimization,Custom weighted log-loss LR,train_optimized,train_best_f1,0.59,0.0,0.59,0.59
+Mammography,threshold_optimization,Custom weighted log-loss LR,train_optimized,train_best_g_mean,0.14,0.0,0.14,0.14
+Mammography,threshold_optimization,Custom weighted log-loss LR,train_optimized,train_best_mcc,0.59,0.0,0.59,0.59
+Mammography,threshold_optimization,Custom weighted log-loss LR,train_optimized,train_best_youden,0.14,0.0,0.14,0.14
+Mammography,threshold_optimization,Custom weighted log-loss LR,validation_optimized,validation_best_f1,0.6233333333333334,0.040414518843273746,0.5800000000000001,0.66
+Mammography,threshold_optimization,Custom weighted log-loss LR,validation_optimized,validation_best_g_mean,0.10999999999999999,0.009999999999999995,0.09999999999999999,0.12
+Mammography,threshold_optimization,Custom weighted log-loss LR,validation_optimized,validation_best_mcc,0.6233333333333334,0.040414518843273746,0.5800000000000001,0.66
+Mammography,threshold_optimization,Custom weighted log-loss LR,validation_optimized,validation_best_youden,0.10999999999999999,0.009999999999999995,0.09999999999999999,0.12
+Mammography,threshold_optimization,EasyEnsemble,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+Mammography,threshold_optimization,EasyEnsemble,ghost,ghost_f1,0.63,0.02645751311064593,0.61,0.66
+Mammography,threshold_optimization,EasyEnsemble,ghost,ghost_g_mean,0.5266666666666667,0.015275252316519468,0.51,0.54
+Mammography,threshold_optimization,EasyEnsemble,ghost,ghost_kappa,0.6333333333333333,0.025166114784235843,0.61,0.66
+Mammography,threshold_optimization,EasyEnsemble,ghost,ghost_mcc,0.65,0.017320508075688787,0.63,0.66
+Mammography,threshold_optimization,EasyEnsemble,ghost,ghost_youden,0.54,0.020000000000000018,0.52,0.56
+Mammography,threshold_optimization,EasyEnsemble,train_optimized,train_best_f1,0.6133333333333333,0.0057735026918962545,0.61,0.62
+Mammography,threshold_optimization,EasyEnsemble,train_optimized,train_best_g_mean,0.5266666666666667,0.015275252316519468,0.51,0.54
+Mammography,threshold_optimization,EasyEnsemble,train_optimized,train_best_mcc,0.6466666666666666,0.023094010767585042,0.62,0.66
+Mammography,threshold_optimization,EasyEnsemble,train_optimized,train_best_youden,0.54,0.010000000000000009,0.53,0.55
+Mammography,threshold_optimization,EasyEnsemble,validation_optimized,validation_best_f1,0.6466666666666666,0.02081665999466135,0.63,0.67
+Mammography,threshold_optimization,EasyEnsemble,validation_optimized,validation_best_g_mean,0.5066666666666667,0.005773502691896279,0.5,0.51
+Mammography,threshold_optimization,EasyEnsemble,validation_optimized,validation_best_mcc,0.6466666666666666,0.02081665999466135,0.63,0.67
+Mammography,threshold_optimization,EasyEnsemble,validation_optimized,validation_best_youden,0.5066666666666667,0.005773502691896279,0.5,0.51
+Mammography,threshold_optimization,RF (balanced_subsample),fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+Mammography,threshold_optimization,RF (balanced_subsample),ghost,ghost_f1,0.2733333333333334,0.0057735026918962675,0.27,0.28
+Mammography,threshold_optimization,RF (balanced_subsample),ghost,ghost_g_mean,0.27,0.010000000000000009,0.26,0.28
+Mammography,threshold_optimization,RF (balanced_subsample),ghost,ghost_kappa,0.2733333333333334,0.0057735026918962675,0.27,0.28
+Mammography,threshold_optimization,RF (balanced_subsample),ghost,ghost_mcc,0.2733333333333334,0.0057735026918962675,0.27,0.28
+Mammography,threshold_optimization,RF (balanced_subsample),ghost,ghost_youden,0.27,0.010000000000000009,0.26,0.28
+Mammography,threshold_optimization,RF (balanced_subsample),train_optimized,train_best_f1,0.33,0.03605551275463989,0.29000000000000004,0.36000000000000004
+Mammography,threshold_optimization,RF (balanced_subsample),train_optimized,train_best_g_mean,0.33,0.03605551275463989,0.29000000000000004,0.36000000000000004
+Mammography,threshold_optimization,RF (balanced_subsample),train_optimized,train_best_mcc,0.33,0.03605551275463989,0.29000000000000004,0.36000000000000004
+Mammography,threshold_optimization,RF (balanced_subsample),train_optimized,train_best_youden,0.33,0.03605551275463989,0.29000000000000004,0.36000000000000004
+Mammography,threshold_optimization,RF (balanced_subsample),validation_optimized,validation_best_f1,0.3333333333333333,0.07094598884597586,0.27,0.41000000000000003
+Mammography,threshold_optimization,RF (balanced_subsample),validation_optimized,validation_best_g_mean,0.07666666666666666,0.005773502691896264,0.06999999999999999,0.08
+Mammography,threshold_optimization,RF (balanced_subsample),validation_optimized,validation_best_mcc,0.4000000000000001,0.07549834435270751,0.32,0.47000000000000003
+Mammography,threshold_optimization,RF (balanced_subsample),validation_optimized,validation_best_youden,0.07666666666666666,0.005773502691896264,0.06999999999999999,0.08
+Mammography,threshold_optimization,RUSBoost,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+Mammography,threshold_optimization,RUSBoost,ghost,ghost_f1,0.4033333333333333,0.24664414311581234,0.12,0.57
+Mammography,threshold_optimization,RUSBoost,ghost,ghost_g_mean,0.31,0.18520259177452136,0.12,0.49
+Mammography,threshold_optimization,RUSBoost,ghost,ghost_kappa,0.4033333333333333,0.24664414311581234,0.12,0.57
+Mammography,threshold_optimization,RUSBoost,ghost,ghost_mcc,0.4033333333333333,0.24664414311581234,0.12,0.57
+Mammography,threshold_optimization,RUSBoost,ghost,ghost_youden,0.31,0.18520259177452136,0.12,0.49
+Mammography,threshold_optimization,RUSBoost,train_optimized,train_best_f1,0.4033333333333333,0.24664414311581237,0.12,0.5700000000000001
+Mammography,threshold_optimization,RUSBoost,train_optimized,train_best_g_mean,0.18666666666666668,0.11547005383792516,0.12,0.32
+Mammography,threshold_optimization,RUSBoost,train_optimized,train_best_mcc,0.4033333333333333,0.24664414311581237,0.12,0.5700000000000001
+Mammography,threshold_optimization,RUSBoost,train_optimized,train_best_youden,0.18666666666666668,0.11547005383792516,0.12,0.32
+Mammography,threshold_optimization,RUSBoost,validation_optimized,validation_best_f1,0.29,0.28583211855912904,0.12,0.62
+Mammography,threshold_optimization,RUSBoost,validation_optimized,validation_best_g_mean,0.12333333333333334,0.005773502691896264,0.12,0.13
+Mammography,threshold_optimization,RUSBoost,validation_optimized,validation_best_mcc,0.29,0.28583211855912904,0.12,0.62
+Mammography,threshold_optimization,RUSBoost,validation_optimized,validation_best_youden,0.12333333333333334,0.005773502691896264,0.12,0.13
+Mammography,threshold_optimization,Random Oversampling + RF,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+Mammography,threshold_optimization,Random Oversampling + RF,ghost,ghost_f1,0.2866666666666667,0.0057735026918962346,0.28,0.29
+Mammography,threshold_optimization,Random Oversampling + RF,ghost,ghost_g_mean,0.27666666666666667,0.0057735026918962675,0.27,0.28
+Mammography,threshold_optimization,Random Oversampling + RF,ghost,ghost_kappa,0.2866666666666667,0.0057735026918962346,0.28,0.29
+Mammography,threshold_optimization,Random Oversampling + RF,ghost,ghost_mcc,0.2866666666666667,0.0057735026918962346,0.28,0.29
+Mammography,threshold_optimization,Random Oversampling + RF,ghost,ghost_youden,0.27666666666666667,0.0057735026918962675,0.27,0.28
+Mammography,threshold_optimization,Random Oversampling + RF,train_optimized,train_best_f1,0.36000000000000004,0.029999999999999992,0.33,0.39
+Mammography,threshold_optimization,Random Oversampling + RF,train_optimized,train_best_g_mean,0.36000000000000004,0.029999999999999992,0.33,0.39
+Mammography,threshold_optimization,Random Oversampling + RF,train_optimized,train_best_mcc,0.36000000000000004,0.029999999999999992,0.33,0.39
+Mammography,threshold_optimization,Random Oversampling + RF,train_optimized,train_best_youden,0.36000000000000004,0.029999999999999992,0.33,0.39
+Mammography,threshold_optimization,Random Oversampling + RF,validation_optimized,validation_best_f1,0.47000000000000003,0.16703293088490062,0.29000000000000004,0.62
+Mammography,threshold_optimization,Random Oversampling + RF,validation_optimized,validation_best_g_mean,0.08333333333333333,0.02886751345948128,0.05,0.09999999999999999
+Mammography,threshold_optimization,Random Oversampling + RF,validation_optimized,validation_best_mcc,0.6066666666666666,0.1527525231651947,0.44,0.74
+Mammography,threshold_optimization,Random Oversampling + RF,validation_optimized,validation_best_youden,0.08333333333333333,0.02886751345948128,0.05,0.09999999999999999
+Mammography,threshold_optimization,Random Undersampling + RF,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+Mammography,threshold_optimization,Random Undersampling + RF,ghost,ghost_f1,0.9066666666666667,0.011547005383792535,0.9,0.92
+Mammography,threshold_optimization,Random Undersampling + RF,ghost,ghost_g_mean,0.66,0.03605551275463984,0.63,0.7
+Mammography,threshold_optimization,Random Undersampling + RF,ghost,ghost_kappa,0.9066666666666667,0.011547005383792535,0.9,0.92
+Mammography,threshold_optimization,Random Undersampling + RF,ghost,ghost_mcc,0.9066666666666667,0.011547005383792535,0.9,0.92
+Mammography,threshold_optimization,Random Undersampling + RF,ghost,ghost_youden,0.66,0.03605551275463984,0.63,0.7
+Mammography,threshold_optimization,Random Undersampling + RF,train_optimized,train_best_f1,0.9066666666666667,0.011547005383792535,0.9,0.92
+Mammography,threshold_optimization,Random Undersampling + RF,train_optimized,train_best_g_mean,0.65,0.036055512754639925,0.61,0.68
+Mammography,threshold_optimization,Random Undersampling + RF,train_optimized,train_best_mcc,0.9066666666666667,0.011547005383792535,0.9,0.92
+Mammography,threshold_optimization,Random Undersampling + RF,train_optimized,train_best_youden,0.65,0.036055512754639925,0.61,0.68
+Mammography,threshold_optimization,Random Undersampling + RF,validation_optimized,validation_best_f1,0.92,0.040000000000000036,0.88,0.9600000000000001
+Mammography,threshold_optimization,Random Undersampling + RF,validation_optimized,validation_best_g_mean,0.49333333333333335,0.049328828623162485,0.46,0.55
+Mammography,threshold_optimization,Random Undersampling + RF,validation_optimized,validation_best_mcc,0.9366666666666666,0.025166114784235853,0.91,0.9600000000000001
+Mammography,threshold_optimization,Random Undersampling + RF,validation_optimized,validation_best_youden,0.5166666666666667,0.089628864398325,0.46,0.62
+Mammography,threshold_optimization,SMOTE + RF,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+Mammography,threshold_optimization,SMOTE + RF,ghost,ghost_f1,0.3233333333333333,0.023094010767585025,0.31,0.35
+Mammography,threshold_optimization,SMOTE + RF,ghost,ghost_g_mean,0.2966666666666667,0.04725815626252606,0.26,0.35
+Mammography,threshold_optimization,SMOTE + RF,ghost,ghost_kappa,0.3233333333333333,0.023094010767585025,0.31,0.35
+Mammography,threshold_optimization,SMOTE + RF,ghost,ghost_mcc,0.3233333333333333,0.023094010767585025,0.31,0.35
+Mammography,threshold_optimization,SMOTE + RF,ghost,ghost_youden,0.2966666666666667,0.04725815626252606,0.26,0.35
+Mammography,threshold_optimization,SMOTE + RF,train_optimized,train_best_f1,0.38333333333333336,0.03511884584284248,0.35000000000000003,0.42000000000000004
+Mammography,threshold_optimization,SMOTE + RF,train_optimized,train_best_g_mean,0.38333333333333336,0.03511884584284248,0.35000000000000003,0.42000000000000004
+Mammography,threshold_optimization,SMOTE + RF,train_optimized,train_best_mcc,0.38333333333333336,0.03511884584284248,0.35000000000000003,0.42000000000000004
+Mammography,threshold_optimization,SMOTE + RF,train_optimized,train_best_youden,0.38333333333333336,0.03511884584284248,0.35000000000000003,0.42000000000000004
+Mammography,threshold_optimization,SMOTE + RF,validation_optimized,validation_best_f1,0.5866666666666667,0.15631165450257806,0.42000000000000004,0.73
+Mammography,threshold_optimization,SMOTE + RF,validation_optimized,validation_best_g_mean,0.09333333333333334,0.051316014394468853,0.05,0.15000000000000002
+Mammography,threshold_optimization,SMOTE + RF,validation_optimized,validation_best_mcc,0.6333333333333333,0.08736894948054101,0.56,0.73
+Mammography,threshold_optimization,SMOTE + RF,validation_optimized,validation_best_youden,0.09333333333333334,0.051316014394468853,0.05,0.15000000000000002
+Mammography,threshold_optimization,SMOTE-ENN + RF,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+Mammography,threshold_optimization,SMOTE-ENN + RF,ghost,ghost_f1,0.73,0.10392304845413265,0.61,0.79
+Mammography,threshold_optimization,SMOTE-ENN + RF,ghost,ghost_g_mean,0.043333333333333335,0.015275252316519463,0.03,0.06
+Mammography,threshold_optimization,SMOTE-ENN + RF,ghost,ghost_kappa,0.77,0.034641016151377574,0.73,0.79
+Mammography,threshold_optimization,SMOTE-ENN + RF,ghost,ghost_mcc,0.77,0.034641016151377574,0.73,0.79
+Mammography,threshold_optimization,SMOTE-ENN + RF,ghost,ghost_youden,0.043333333333333335,0.015275252316519463,0.03,0.06
+Mammography,threshold_optimization,SMOTE-ENN + RF,train_optimized,train_best_f1,0.7566666666666667,0.03055050463303897,0.73,0.79
+Mammography,threshold_optimization,SMOTE-ENN + RF,train_optimized,train_best_g_mean,0.05000000000000001,0.010000000000000002,0.04,0.060000000000000005
+Mammography,threshold_optimization,SMOTE-ENN + RF,train_optimized,train_best_mcc,0.7933333333333333,0.005773502691896279,0.79,0.8
+Mammography,threshold_optimization,SMOTE-ENN + RF,train_optimized,train_best_youden,0.07666666666666667,0.015275252316519456,0.060000000000000005,0.09
+Mammography,threshold_optimization,SMOTE-ENN + RF,validation_optimized,validation_best_f1,0.6699999999999999,0.08185352771872449,0.6,0.76
+Mammography,threshold_optimization,SMOTE-ENN + RF,validation_optimized,validation_best_g_mean,0.02666666666666667,0.005773502691896255,0.02,0.03
+Mammography,threshold_optimization,SMOTE-ENN + RF,validation_optimized,validation_best_mcc,0.7966666666666667,0.04041451884327385,0.76,0.8400000000000001
+Mammography,threshold_optimization,SMOTE-ENN + RF,validation_optimized,validation_best_youden,0.02666666666666667,0.005773502691896255,0.02,0.03
+Mammography,threshold_optimization,SMOTE-Tomek + RF,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+Mammography,threshold_optimization,SMOTE-Tomek + RF,ghost,ghost_f1,0.49333333333333335,0.020816659994661355,0.47,0.51
+Mammography,threshold_optimization,SMOTE-Tomek + RF,ghost,ghost_g_mean,0.49333333333333335,0.020816659994661355,0.47,0.51
+Mammography,threshold_optimization,SMOTE-Tomek + RF,ghost,ghost_kappa,0.49333333333333335,0.020816659994661355,0.47,0.51
+Mammography,threshold_optimization,SMOTE-Tomek + RF,ghost,ghost_mcc,0.49333333333333335,0.020816659994661355,0.47,0.51
+Mammography,threshold_optimization,SMOTE-Tomek + RF,ghost,ghost_youden,0.49333333333333335,0.020816659994661355,0.47,0.51
+Mammography,threshold_optimization,SMOTE-Tomek + RF,train_optimized,train_best_f1,0.49333333333333335,0.020816659994661316,0.47000000000000003,0.51
+Mammography,threshold_optimization,SMOTE-Tomek + RF,train_optimized,train_best_g_mean,0.4633333333333334,0.04041451884327378,0.42000000000000004,0.5
+Mammography,threshold_optimization,SMOTE-Tomek + RF,train_optimized,train_best_mcc,0.49333333333333335,0.020816659994661316,0.47000000000000003,0.51
+Mammography,threshold_optimization,SMOTE-Tomek + RF,train_optimized,train_best_youden,0.4633333333333334,0.04041451884327378,0.42000000000000004,0.5
+Mammography,threshold_optimization,SMOTE-Tomek + RF,validation_optimized,validation_best_f1,0.4933333333333334,0.14153915830374764,0.33,0.5800000000000001
+Mammography,threshold_optimization,SMOTE-Tomek + RF,validation_optimized,validation_best_g_mean,0.08,0.019999999999999993,0.060000000000000005,0.09999999999999999
+Mammography,threshold_optimization,SMOTE-Tomek + RF,validation_optimized,validation_best_mcc,0.5766666666666668,0.0057735026918962545,0.5700000000000001,0.5800000000000001
+Mammography,threshold_optimization,SMOTE-Tomek + RF,validation_optimized,validation_best_youden,0.11,0.1044030650891055,0.04,0.23
+synthetic_base,threshold_optimization,ADASYN + RF,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+synthetic_base,threshold_optimization,ADASYN + RF,ghost,ghost_f1,0.32666666666666666,0.0057735026918962675,0.32,0.33
+synthetic_base,threshold_optimization,ADASYN + RF,ghost,ghost_g_mean,0.32666666666666666,0.0057735026918962675,0.32,0.33
+synthetic_base,threshold_optimization,ADASYN + RF,ghost,ghost_kappa,0.32666666666666666,0.0057735026918962675,0.32,0.33
+synthetic_base,threshold_optimization,ADASYN + RF,ghost,ghost_mcc,0.32666666666666666,0.0057735026918962675,0.32,0.33
+synthetic_base,threshold_optimization,ADASYN + RF,ghost,ghost_youden,0.32666666666666666,0.0057735026918962675,0.32,0.33
+synthetic_base,threshold_optimization,ADASYN + RF,train_optimized,train_best_f1,0.35000000000000003,0.010000000000000009,0.34,0.36000000000000004
+synthetic_base,threshold_optimization,ADASYN + RF,train_optimized,train_best_g_mean,0.35000000000000003,0.010000000000000009,0.34,0.36000000000000004
+synthetic_base,threshold_optimization,ADASYN + RF,train_optimized,train_best_mcc,0.35000000000000003,0.010000000000000009,0.34,0.36000000000000004
+synthetic_base,threshold_optimization,ADASYN + RF,train_optimized,train_best_youden,0.35000000000000003,0.010000000000000009,0.34,0.36000000000000004
+synthetic_base,threshold_optimization,ADASYN + RF,validation_optimized,validation_best_f1,0.46666666666666673,0.015275252316519486,0.45,0.48000000000000004
+synthetic_base,threshold_optimization,ADASYN + RF,validation_optimized,validation_best_g_mean,0.3333333333333333,0.023094010767585042,0.32,0.36000000000000004
+synthetic_base,threshold_optimization,ADASYN + RF,validation_optimized,validation_best_mcc,0.46666666666666673,0.015275252316519486,0.45,0.48000000000000004
+synthetic_base,threshold_optimization,ADASYN + RF,validation_optimized,validation_best_youden,0.3333333333333333,0.023094010767585042,0.32,0.36000000000000004
+synthetic_base,threshold_optimization,Balanced Bagging,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+synthetic_base,threshold_optimization,Balanced Bagging,ghost,ghost_f1,0.66,0.017320508075688787,0.64,0.67
+synthetic_base,threshold_optimization,Balanced Bagging,ghost,ghost_g_mean,0.61,0.0,0.61,0.61
+synthetic_base,threshold_optimization,Balanced Bagging,ghost,ghost_kappa,0.66,0.017320508075688787,0.64,0.67
+synthetic_base,threshold_optimization,Balanced Bagging,ghost,ghost_mcc,0.66,0.017320508075688787,0.64,0.67
+synthetic_base,threshold_optimization,Balanced Bagging,ghost,ghost_youden,0.61,0.0,0.61,0.61
+synthetic_base,threshold_optimization,Balanced Bagging,train_optimized,train_best_f1,0.66,0.017320508075688787,0.64,0.67
+synthetic_base,threshold_optimization,Balanced Bagging,train_optimized,train_best_g_mean,0.62,0.017320508075688787,0.61,0.64
+synthetic_base,threshold_optimization,Balanced Bagging,train_optimized,train_best_mcc,0.66,0.017320508075688787,0.64,0.67
+synthetic_base,threshold_optimization,Balanced Bagging,train_optimized,train_best_youden,0.62,0.017320508075688787,0.61,0.64
+synthetic_base,threshold_optimization,Balanced Bagging,validation_optimized,validation_best_f1,0.5933333333333334,0.040414518843273795,0.5700000000000001,0.64
+synthetic_base,threshold_optimization,Balanced Bagging,validation_optimized,validation_best_g_mean,0.43,0.01732050807568873,0.41000000000000003,0.44
+synthetic_base,threshold_optimization,Balanced Bagging,validation_optimized,validation_best_mcc,0.5833333333333334,0.05131601439446883,0.54,0.64
+synthetic_base,threshold_optimization,Balanced Bagging,validation_optimized,validation_best_youden,0.43,0.01732050807568873,0.41000000000000003,0.44
+synthetic_base,threshold_optimization,Balanced Random Forest,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+synthetic_base,threshold_optimization,Balanced Random Forest,ghost,ghost_f1,0.68,0.009999999999999995,0.67,0.69
+synthetic_base,threshold_optimization,Balanced Random Forest,ghost,ghost_g_mean,0.6733333333333333,0.020816659994661323,0.65,0.69
+synthetic_base,threshold_optimization,Balanced Random Forest,ghost,ghost_kappa,0.68,0.009999999999999995,0.67,0.69
+synthetic_base,threshold_optimization,Balanced Random Forest,ghost,ghost_mcc,0.68,0.009999999999999995,0.67,0.69
+synthetic_base,threshold_optimization,Balanced Random Forest,ghost,ghost_youden,0.6733333333333333,0.020816659994661323,0.65,0.69
+synthetic_base,threshold_optimization,Balanced Random Forest,train_optimized,train_best_f1,0.6866666666666666,0.005773502691896279,0.68,0.6900000000000001
+synthetic_base,threshold_optimization,Balanced Random Forest,train_optimized,train_best_g_mean,0.63,0.02645751311064593,0.61,0.66
+synthetic_base,threshold_optimization,Balanced Random Forest,train_optimized,train_best_mcc,0.6866666666666666,0.005773502691896279,0.68,0.6900000000000001
+synthetic_base,threshold_optimization,Balanced Random Forest,train_optimized,train_best_youden,0.63,0.02645751311064593,0.61,0.66
+synthetic_base,threshold_optimization,Balanced Random Forest,validation_optimized,validation_best_f1,0.56,0.017320508075688787,0.55,0.5800000000000001
+synthetic_base,threshold_optimization,Balanced Random Forest,validation_optimized,validation_best_g_mean,0.4033333333333333,0.02081665999466134,0.38,0.42000000000000004
+synthetic_base,threshold_optimization,Balanced Random Forest,validation_optimized,validation_best_mcc,0.5666666666666668,0.015275252316519494,0.55,0.5800000000000001
+synthetic_base,threshold_optimization,Balanced Random Forest,validation_optimized,validation_best_youden,0.4033333333333333,0.02081665999466134,0.38,0.42000000000000004
+synthetic_base,threshold_optimization,Baseline RF,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+synthetic_base,threshold_optimization,Baseline RF,ghost,ghost_f1,0.21666666666666667,0.02516611478423582,0.19,0.24
+synthetic_base,threshold_optimization,Baseline RF,ghost,ghost_g_mean,0.21666666666666667,0.02516611478423582,0.19,0.24
+synthetic_base,threshold_optimization,Baseline RF,ghost,ghost_kappa,0.21666666666666667,0.02516611478423582,0.19,0.24
+synthetic_base,threshold_optimization,Baseline RF,ghost,ghost_mcc,0.21666666666666667,0.02516611478423582,0.19,0.24
+synthetic_base,threshold_optimization,Baseline RF,ghost,ghost_youden,0.21666666666666667,0.02516611478423582,0.19,0.24
+synthetic_base,threshold_optimization,Baseline RF,train_optimized,train_best_f1,0.2733333333333334,0.03511884584284246,0.24000000000000002,0.31
+synthetic_base,threshold_optimization,Baseline RF,train_optimized,train_best_g_mean,0.2733333333333334,0.03511884584284246,0.24000000000000002,0.31
+synthetic_base,threshold_optimization,Baseline RF,train_optimized,train_best_mcc,0.2733333333333334,0.03511884584284246,0.24000000000000002,0.31
+synthetic_base,threshold_optimization,Baseline RF,train_optimized,train_best_youden,0.2733333333333334,0.03511884584284246,0.24000000000000002,0.31
+synthetic_base,threshold_optimization,Baseline RF,validation_optimized,validation_best_f1,0.33666666666666667,0.011547005383792521,0.33,0.35000000000000003
+synthetic_base,threshold_optimization,Baseline RF,validation_optimized,validation_best_g_mean,0.16333333333333336,0.02081665999466132,0.14,0.18000000000000002
+synthetic_base,threshold_optimization,Baseline RF,validation_optimized,validation_best_mcc,0.35000000000000003,0.010000000000000009,0.34,0.36000000000000004
+synthetic_base,threshold_optimization,Baseline RF,validation_optimized,validation_best_youden,0.16333333333333336,0.02081665999466132,0.14,0.18000000000000002
+synthetic_base,threshold_optimization,Borderline-SMOTE + RF,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+synthetic_base,threshold_optimization,Borderline-SMOTE + RF,ghost,ghost_f1,0.3133333333333333,0.02081665999466134,0.29,0.33
+synthetic_base,threshold_optimization,Borderline-SMOTE + RF,ghost,ghost_g_mean,0.3133333333333333,0.02081665999466134,0.29,0.33
+synthetic_base,threshold_optimization,Borderline-SMOTE + RF,ghost,ghost_kappa,0.3133333333333333,0.02081665999466134,0.29,0.33
+synthetic_base,threshold_optimization,Borderline-SMOTE + RF,ghost,ghost_mcc,0.3133333333333333,0.02081665999466134,0.29,0.33
+synthetic_base,threshold_optimization,Borderline-SMOTE + RF,ghost,ghost_youden,0.3133333333333333,0.02081665999466134,0.29,0.33
+synthetic_base,threshold_optimization,Borderline-SMOTE + RF,train_optimized,train_best_f1,0.35000000000000003,0.0,0.35000000000000003,0.35000000000000003
+synthetic_base,threshold_optimization,Borderline-SMOTE + RF,train_optimized,train_best_g_mean,0.35000000000000003,0.0,0.35000000000000003,0.35000000000000003
+synthetic_base,threshold_optimization,Borderline-SMOTE + RF,train_optimized,train_best_mcc,0.35000000000000003,0.0,0.35000000000000003,0.35000000000000003
+synthetic_base,threshold_optimization,Borderline-SMOTE + RF,train_optimized,train_best_youden,0.35000000000000003,0.0,0.35000000000000003,0.35000000000000003
+synthetic_base,threshold_optimization,Borderline-SMOTE + RF,validation_optimized,validation_best_f1,0.4466666666666667,0.05033222956847162,0.4,0.5
+synthetic_base,threshold_optimization,Borderline-SMOTE + RF,validation_optimized,validation_best_g_mean,0.30000000000000004,0.02645751311064589,0.28,0.33
+synthetic_base,threshold_optimization,Borderline-SMOTE + RF,validation_optimized,validation_best_mcc,0.4466666666666667,0.05033222956847162,0.4,0.5
+synthetic_base,threshold_optimization,Borderline-SMOTE + RF,validation_optimized,validation_best_youden,0.30000000000000004,0.02645751311064589,0.28,0.33
+synthetic_base,threshold_optimization,Class weight LogisticRegression,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+synthetic_base,threshold_optimization,Class weight LogisticRegression,ghost,ghost_f1,0.7466666666666667,0.015275252316519477,0.73,0.76
+synthetic_base,threshold_optimization,Class weight LogisticRegression,ghost,ghost_g_mean,0.55,0.0,0.55,0.55
+synthetic_base,threshold_optimization,Class weight LogisticRegression,ghost,ghost_kappa,0.8300000000000001,0.060827625302982226,0.76,0.87
+synthetic_base,threshold_optimization,Class weight LogisticRegression,ghost,ghost_mcc,0.87,0.0,0.87,0.87
+synthetic_base,threshold_optimization,Class weight LogisticRegression,ghost,ghost_youden,0.5833333333333334,0.05773502691896256,0.55,0.65
+synthetic_base,threshold_optimization,Class weight LogisticRegression,train_optimized,train_best_f1,0.7399999999999999,0.0,0.74,0.74
+synthetic_base,threshold_optimization,Class weight LogisticRegression,train_optimized,train_best_g_mean,0.55,0.0,0.55,0.55
+synthetic_base,threshold_optimization,Class weight LogisticRegression,train_optimized,train_best_mcc,0.88,0.0,0.88,0.88
+synthetic_base,threshold_optimization,Class weight LogisticRegression,train_optimized,train_best_youden,0.55,0.0,0.55,0.55
+synthetic_base,threshold_optimization,Class weight LogisticRegression,validation_optimized,validation_best_f1,0.79,0.05196152422706637,0.73,0.8200000000000001
+synthetic_base,threshold_optimization,Class weight LogisticRegression,validation_optimized,validation_best_g_mean,0.5433333333333333,0.04509249752822893,0.5,0.59
+synthetic_base,threshold_optimization,Class weight LogisticRegression,validation_optimized,validation_best_mcc,0.8533333333333334,0.03511884584284246,0.8200000000000001,0.89
+synthetic_base,threshold_optimization,Class weight LogisticRegression,validation_optimized,validation_best_youden,0.5733333333333334,0.028867513459481298,0.54,0.59
+synthetic_base,threshold_optimization,Custom weighted log-loss LR,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+synthetic_base,threshold_optimization,Custom weighted log-loss LR,ghost,ghost_f1,0.68,0.07211102550927981,0.62,0.76
+synthetic_base,threshold_optimization,Custom weighted log-loss LR,ghost,ghost_g_mean,0.41333333333333333,0.020816659994661327,0.39,0.43
+synthetic_base,threshold_optimization,Custom weighted log-loss LR,ghost,ghost_kappa,0.6933333333333334,0.05773502691896258,0.66,0.76
+synthetic_base,threshold_optimization,Custom weighted log-loss LR,ghost,ghost_mcc,0.8066666666666666,0.0057735026918962545,0.8,0.81
+synthetic_base,threshold_optimization,Custom weighted log-loss LR,ghost,ghost_youden,0.45,0.0721110255092798,0.39,0.53
+synthetic_base,threshold_optimization,Custom weighted log-loss LR,train_optimized,train_best_f1,0.66,0.0,0.66,0.66
+synthetic_base,threshold_optimization,Custom weighted log-loss LR,train_optimized,train_best_g_mean,0.43,0.0,0.43,0.43
+synthetic_base,threshold_optimization,Custom weighted log-loss LR,train_optimized,train_best_mcc,0.81,0.0,0.81,0.81
+synthetic_base,threshold_optimization,Custom weighted log-loss LR,train_optimized,train_best_youden,0.43,0.0,0.43,0.43
+synthetic_base,threshold_optimization,Custom weighted log-loss LR,validation_optimized,validation_best_f1,0.6633333333333334,0.023094010767585042,0.65,0.6900000000000001
+synthetic_base,threshold_optimization,Custom weighted log-loss LR,validation_optimized,validation_best_g_mean,0.42333333333333334,0.04509249752822897,0.38,0.47000000000000003
+synthetic_base,threshold_optimization,Custom weighted log-loss LR,validation_optimized,validation_best_mcc,0.7466666666666667,0.060277137733417085,0.6900000000000001,0.81
+synthetic_base,threshold_optimization,Custom weighted log-loss LR,validation_optimized,validation_best_youden,0.4466666666666667,0.08326663997864533,0.38,0.54
+synthetic_base,threshold_optimization,EasyEnsemble,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+synthetic_base,threshold_optimization,EasyEnsemble,ghost,ghost_f1,0.5533333333333333,0.005773502691896279,0.55,0.56
+synthetic_base,threshold_optimization,EasyEnsemble,ghost,ghost_g_mean,0.5,0.0,0.5,0.5
+synthetic_base,threshold_optimization,EasyEnsemble,ghost,ghost_kappa,0.5566666666666668,0.0057735026918962545,0.55,0.56
+synthetic_base,threshold_optimization,EasyEnsemble,ghost,ghost_mcc,0.5566666666666668,0.0057735026918962545,0.55,0.56
+synthetic_base,threshold_optimization,EasyEnsemble,ghost,ghost_youden,0.5,0.0,0.5,0.5
+synthetic_base,threshold_optimization,EasyEnsemble,train_optimized,train_best_f1,0.5533333333333333,0.005773502691896279,0.55,0.56
+synthetic_base,threshold_optimization,EasyEnsemble,train_optimized,train_best_g_mean,0.5,0.0,0.5,0.5
+synthetic_base,threshold_optimization,EasyEnsemble,train_optimized,train_best_mcc,0.5633333333333334,0.0057735026918962545,0.56,0.5700000000000001
+synthetic_base,threshold_optimization,EasyEnsemble,train_optimized,train_best_youden,0.5,0.0,0.5,0.5
+synthetic_base,threshold_optimization,EasyEnsemble,validation_optimized,validation_best_f1,0.5466666666666667,0.0057735026918962545,0.54,0.55
+synthetic_base,threshold_optimization,EasyEnsemble,validation_optimized,validation_best_g_mean,0.5,0.010000000000000009,0.49,0.51
+synthetic_base,threshold_optimization,EasyEnsemble,validation_optimized,validation_best_mcc,0.5633333333333334,0.015275252316519477,0.55,0.5800000000000001
+synthetic_base,threshold_optimization,EasyEnsemble,validation_optimized,validation_best_youden,0.5,0.010000000000000009,0.49,0.51
+synthetic_base,threshold_optimization,RF (balanced_subsample),fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+synthetic_base,threshold_optimization,RF (balanced_subsample),ghost,ghost_f1,0.21333333333333335,0.03214550253664318,0.19,0.25
+synthetic_base,threshold_optimization,RF (balanced_subsample),ghost,ghost_g_mean,0.21333333333333335,0.03214550253664318,0.19,0.25
+synthetic_base,threshold_optimization,RF (balanced_subsample),ghost,ghost_kappa,0.21333333333333335,0.03214550253664318,0.19,0.25
+synthetic_base,threshold_optimization,RF (balanced_subsample),ghost,ghost_mcc,0.21333333333333335,0.03214550253664318,0.19,0.25
+synthetic_base,threshold_optimization,RF (balanced_subsample),ghost,ghost_youden,0.21333333333333335,0.03214550253664318,0.19,0.25
+synthetic_base,threshold_optimization,RF (balanced_subsample),train_optimized,train_best_f1,0.24000000000000002,0.03,0.21000000000000002,0.27
+synthetic_base,threshold_optimization,RF (balanced_subsample),train_optimized,train_best_g_mean,0.24000000000000002,0.03,0.21000000000000002,0.27
+synthetic_base,threshold_optimization,RF (balanced_subsample),train_optimized,train_best_mcc,0.24000000000000002,0.03,0.21000000000000002,0.27
+synthetic_base,threshold_optimization,RF (balanced_subsample),train_optimized,train_best_youden,0.24000000000000002,0.03,0.21000000000000002,0.27
+synthetic_base,threshold_optimization,RF (balanced_subsample),validation_optimized,validation_best_f1,0.23333333333333336,0.005773502691896267,0.23,0.24000000000000002
+synthetic_base,threshold_optimization,RF (balanced_subsample),validation_optimized,validation_best_g_mean,0.15000000000000002,0.0,0.15000000000000002,0.15000000000000002
+synthetic_base,threshold_optimization,RF (balanced_subsample),validation_optimized,validation_best_mcc,0.23333333333333336,0.005773502691896267,0.23,0.24000000000000002
+synthetic_base,threshold_optimization,RF (balanced_subsample),validation_optimized,validation_best_youden,0.15000000000000002,0.0,0.15000000000000002,0.15000000000000002
+synthetic_base,threshold_optimization,RUSBoost,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+synthetic_base,threshold_optimization,RUSBoost,ghost,ghost_f1,0.58,0.3984971769034255,0.12,0.82
+synthetic_base,threshold_optimization,RUSBoost,ghost,ghost_g_mean,0.14333333333333334,0.04041451884327381,0.12,0.19
+synthetic_base,threshold_optimization,RUSBoost,ghost,ghost_kappa,0.58,0.3984971769034255,0.12,0.82
+synthetic_base,threshold_optimization,RUSBoost,ghost,ghost_mcc,0.58,0.3984971769034255,0.12,0.82
+synthetic_base,threshold_optimization,RUSBoost,ghost,ghost_youden,0.14333333333333334,0.04041451884327381,0.12,0.19
+synthetic_base,threshold_optimization,RUSBoost,train_optimized,train_best_f1,0.5800000000000001,0.3984971769034255,0.12,0.8200000000000001
+synthetic_base,threshold_optimization,RUSBoost,train_optimized,train_best_g_mean,0.14333333333333334,0.04041451884327381,0.12,0.19
+synthetic_base,threshold_optimization,RUSBoost,train_optimized,train_best_mcc,0.5800000000000001,0.3984971769034255,0.12,0.8200000000000001
+synthetic_base,threshold_optimization,RUSBoost,train_optimized,train_best_youden,0.14333333333333334,0.04041451884327381,0.12,0.19
+synthetic_base,threshold_optimization,RUSBoost,validation_optimized,validation_best_f1,0.49333333333333335,0.3523256069793017,0.12,0.8200000000000001
+synthetic_base,threshold_optimization,RUSBoost,validation_optimized,validation_best_g_mean,0.26,0.18520259177452136,0.12,0.47000000000000003
+synthetic_base,threshold_optimization,RUSBoost,validation_optimized,validation_best_mcc,0.56,0.3831448812133604,0.12,0.8200000000000001
+synthetic_base,threshold_optimization,RUSBoost,validation_optimized,validation_best_youden,0.26,0.18520259177452136,0.12,0.47000000000000003
+synthetic_base,threshold_optimization,Random Oversampling + RF,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+synthetic_base,threshold_optimization,Random Oversampling + RF,ghost,ghost_f1,0.25333333333333335,0.015275252316519486,0.24,0.27
+synthetic_base,threshold_optimization,Random Oversampling + RF,ghost,ghost_g_mean,0.25333333333333335,0.015275252316519486,0.24,0.27
+synthetic_base,threshold_optimization,Random Oversampling + RF,ghost,ghost_kappa,0.25333333333333335,0.015275252316519486,0.24,0.27
+synthetic_base,threshold_optimization,Random Oversampling + RF,ghost,ghost_mcc,0.25333333333333335,0.015275252316519486,0.24,0.27
+synthetic_base,threshold_optimization,Random Oversampling + RF,ghost,ghost_youden,0.25333333333333335,0.015275252316519486,0.24,0.27
+synthetic_base,threshold_optimization,Random Oversampling + RF,train_optimized,train_best_f1,0.2933333333333334,0.04163331998932267,0.26,0.34
+synthetic_base,threshold_optimization,Random Oversampling + RF,train_optimized,train_best_g_mean,0.2933333333333334,0.04163331998932267,0.26,0.34
+synthetic_base,threshold_optimization,Random Oversampling + RF,train_optimized,train_best_mcc,0.2933333333333334,0.04163331998932267,0.26,0.34
+synthetic_base,threshold_optimization,Random Oversampling + RF,train_optimized,train_best_youden,0.2933333333333334,0.04163331998932267,0.26,0.34
+synthetic_base,threshold_optimization,Random Oversampling + RF,validation_optimized,validation_best_f1,0.3166666666666667,0.03214550253664316,0.28,0.34
+synthetic_base,threshold_optimization,Random Oversampling + RF,validation_optimized,validation_best_g_mean,0.20333333333333337,0.005773502691896261,0.2,0.21000000000000002
+synthetic_base,threshold_optimization,Random Oversampling + RF,validation_optimized,validation_best_mcc,0.3166666666666667,0.03214550253664316,0.28,0.34
+synthetic_base,threshold_optimization,Random Oversampling + RF,validation_optimized,validation_best_youden,0.20333333333333337,0.005773502691896261,0.2,0.21000000000000002
+synthetic_base,threshold_optimization,Random Undersampling + RF,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+synthetic_base,threshold_optimization,Random Undersampling + RF,ghost,ghost_f1,0.7533333333333333,0.011547005383792535,0.74,0.76
+synthetic_base,threshold_optimization,Random Undersampling + RF,ghost,ghost_g_mean,0.7133333333333333,0.015275252316519477,0.7,0.73
+synthetic_base,threshold_optimization,Random Undersampling + RF,ghost,ghost_kappa,0.7533333333333333,0.011547005383792535,0.74,0.76
+synthetic_base,threshold_optimization,Random Undersampling + RF,ghost,ghost_mcc,0.7533333333333333,0.011547005383792535,0.74,0.76
+synthetic_base,threshold_optimization,Random Undersampling + RF,ghost,ghost_youden,0.71,0.020000000000000018,0.69,0.73
+synthetic_base,threshold_optimization,Random Undersampling + RF,train_optimized,train_best_f1,0.7600000000000001,0.0,0.76,0.76
+synthetic_base,threshold_optimization,Random Undersampling + RF,train_optimized,train_best_g_mean,0.6833333333333335,0.011547005383792535,0.67,0.6900000000000001
+synthetic_base,threshold_optimization,Random Undersampling + RF,train_optimized,train_best_mcc,0.7600000000000001,0.0,0.76,0.76
+synthetic_base,threshold_optimization,Random Undersampling + RF,train_optimized,train_best_youden,0.6833333333333335,0.011547005383792535,0.67,0.6900000000000001
+synthetic_base,threshold_optimization,Random Undersampling + RF,validation_optimized,validation_best_f1,0.66,0.010000000000000009,0.65,0.67
+synthetic_base,threshold_optimization,Random Undersampling + RF,validation_optimized,validation_best_g_mean,0.48,0.029999999999999992,0.45,0.51
+synthetic_base,threshold_optimization,Random Undersampling + RF,validation_optimized,validation_best_mcc,0.66,0.010000000000000009,0.65,0.67
+synthetic_base,threshold_optimization,Random Undersampling + RF,validation_optimized,validation_best_youden,0.48,0.029999999999999992,0.45,0.51
+synthetic_base,threshold_optimization,SMOTE + RF,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+synthetic_base,threshold_optimization,SMOTE + RF,ghost,ghost_f1,0.3033333333333333,0.015275252316519486,0.29,0.32
+synthetic_base,threshold_optimization,SMOTE + RF,ghost,ghost_g_mean,0.3033333333333333,0.015275252316519486,0.29,0.32
+synthetic_base,threshold_optimization,SMOTE + RF,ghost,ghost_kappa,0.3033333333333333,0.015275252316519486,0.29,0.32
+synthetic_base,threshold_optimization,SMOTE + RF,ghost,ghost_mcc,0.3033333333333333,0.015275252316519486,0.29,0.32
+synthetic_base,threshold_optimization,SMOTE + RF,ghost,ghost_youden,0.3033333333333333,0.015275252316519486,0.29,0.32
+synthetic_base,threshold_optimization,SMOTE + RF,train_optimized,train_best_f1,0.35000000000000003,0.0,0.35000000000000003,0.35000000000000003
+synthetic_base,threshold_optimization,SMOTE + RF,train_optimized,train_best_g_mean,0.35000000000000003,0.0,0.35000000000000003,0.35000000000000003
+synthetic_base,threshold_optimization,SMOTE + RF,train_optimized,train_best_mcc,0.35000000000000003,0.0,0.35000000000000003,0.35000000000000003
+synthetic_base,threshold_optimization,SMOTE + RF,train_optimized,train_best_youden,0.35000000000000003,0.0,0.35000000000000003,0.35000000000000003
+synthetic_base,threshold_optimization,SMOTE + RF,validation_optimized,validation_best_f1,0.4466666666666667,0.055075705472860996,0.41000000000000003,0.51
+synthetic_base,threshold_optimization,SMOTE + RF,validation_optimized,validation_best_g_mean,0.31666666666666665,0.011547005383792533,0.31,0.33
+synthetic_base,threshold_optimization,SMOTE + RF,validation_optimized,validation_best_mcc,0.4466666666666667,0.055075705472860996,0.41000000000000003,0.51
+synthetic_base,threshold_optimization,SMOTE + RF,validation_optimized,validation_best_youden,0.31666666666666665,0.011547005383792533,0.31,0.33
+synthetic_base,threshold_optimization,SMOTE-ENN + RF,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+synthetic_base,threshold_optimization,SMOTE-ENN + RF,ghost,ghost_f1,0.75,0.017320508075688787,0.73,0.76
+synthetic_base,threshold_optimization,SMOTE-ENN + RF,ghost,ghost_g_mean,0.75,0.017320508075688787,0.73,0.76
+synthetic_base,threshold_optimization,SMOTE-ENN + RF,ghost,ghost_kappa,0.75,0.017320508075688787,0.73,0.76
+synthetic_base,threshold_optimization,SMOTE-ENN + RF,ghost,ghost_mcc,0.75,0.017320508075688787,0.73,0.76
+synthetic_base,threshold_optimization,SMOTE-ENN + RF,ghost,ghost_youden,0.75,0.017320508075688787,0.73,0.76
+synthetic_base,threshold_optimization,SMOTE-ENN + RF,train_optimized,train_best_f1,0.7933333333333333,0.03055050463303897,0.76,0.8200000000000001
+synthetic_base,threshold_optimization,SMOTE-ENN + RF,train_optimized,train_best_g_mean,0.75,0.017320508075688787,0.73,0.76
+synthetic_base,threshold_optimization,SMOTE-ENN + RF,train_optimized,train_best_mcc,0.7933333333333333,0.03055050463303897,0.76,0.8200000000000001
+synthetic_base,threshold_optimization,SMOTE-ENN + RF,train_optimized,train_best_youden,0.75,0.017320508075688787,0.73,0.76
+synthetic_base,threshold_optimization,SMOTE-ENN + RF,validation_optimized,validation_best_f1,0.5066666666666667,0.04041451884327381,0.47000000000000003,0.55
+synthetic_base,threshold_optimization,SMOTE-ENN + RF,validation_optimized,validation_best_g_mean,0.3166666666666667,0.040414518843273815,0.27,0.34
+synthetic_base,threshold_optimization,SMOTE-ENN + RF,validation_optimized,validation_best_mcc,0.5066666666666667,0.04041451884327381,0.47000000000000003,0.55
+synthetic_base,threshold_optimization,SMOTE-ENN + RF,validation_optimized,validation_best_youden,0.3166666666666667,0.040414518843273815,0.27,0.34
+synthetic_base,threshold_optimization,SMOTE-Tomek + RF,fixed_threshold,default_0.5,0.5,0.0,0.5,0.5
+synthetic_base,threshold_optimization,SMOTE-Tomek + RF,ghost,ghost_f1,0.3033333333333333,0.015275252316519486,0.29,0.32
+synthetic_base,threshold_optimization,SMOTE-Tomek + RF,ghost,ghost_g_mean,0.3033333333333333,0.015275252316519486,0.29,0.32
+synthetic_base,threshold_optimization,SMOTE-Tomek + RF,ghost,ghost_kappa,0.3033333333333333,0.015275252316519486,0.29,0.32
+synthetic_base,threshold_optimization,SMOTE-Tomek + RF,ghost,ghost_mcc,0.3033333333333333,0.015275252316519486,0.29,0.32
+synthetic_base,threshold_optimization,SMOTE-Tomek + RF,ghost,ghost_youden,0.3033333333333333,0.015275252316519486,0.29,0.32
+synthetic_base,threshold_optimization,SMOTE-Tomek + RF,train_optimized,train_best_f1,0.35000000000000003,0.0,0.35000000000000003,0.35000000000000003
+synthetic_base,threshold_optimization,SMOTE-Tomek + RF,train_optimized,train_best_g_mean,0.35000000000000003,0.0,0.35000000000000003,0.35000000000000003
+synthetic_base,threshold_optimization,SMOTE-Tomek + RF,train_optimized,train_best_mcc,0.35000000000000003,0.0,0.35000000000000003,0.35000000000000003
+synthetic_base,threshold_optimization,SMOTE-Tomek + RF,train_optimized,train_best_youden,0.35000000000000003,0.0,0.35000000000000003,0.35000000000000003
+synthetic_base,threshold_optimization,SMOTE-Tomek + RF,validation_optimized,validation_best_f1,0.4466666666666667,0.055075705472860996,0.41000000000000003,0.51
+synthetic_base,threshold_optimization,SMOTE-Tomek + RF,validation_optimized,validation_best_g_mean,0.31666666666666665,0.011547005383792533,0.31,0.33
+synthetic_base,threshold_optimization,SMOTE-Tomek + RF,validation_optimized,validation_best_mcc,0.4466666666666667,0.055075705472860996,0.41000000000000003,0.51
+synthetic_base,threshold_optimization,SMOTE-Tomek + RF,validation_optimized,validation_best_youden,0.31666666666666665,0.011547005383792533,0.31,0.33

@@ -1,0 +1,6 @@
+method,threshold,accuracy,balanced_accuracy,precision,recall,f1,specificity,g_mean,mcc,tn,fp,fn,tp,status,roc_auc,pr_auc,dataset,scenario,strategy,strategy_group,threshold_source,seed
+RUSBoost,,,,,,,,,,,,,,"error: ValueError: BaseClassifier in AdaBoostClassifier ensemble is worse than random, ensemble can not be fit.",,,AID362 PubChem Bioassay,threshold_optimization,all,other,error,0
+RUSBoost,,,,,,,,,,,,,,"error: ValueError: BaseClassifier in AdaBoostClassifier ensemble is worse than random, ensemble can not be fit.",,,AID362 PubChem Bioassay,threshold_optimization,all,other,error,2
+RUSBoost,,,,,,,,,,,,,,"error: ValueError: BaseClassifier in AdaBoostClassifier ensemble is worse than random, ensemble can not be fit.",,,Abalone19,threshold_optimization,all,other,error,0
+RUSBoost,,,,,,,,,,,,,,"error: ValueError: BaseClassifier in AdaBoostClassifier ensemble is worse than random, ensemble can not be fit.",,,Abalone19,threshold_optimization,all,other,error,1
+RUSBoost,,,,,,,,,,,,,,"error: ValueError: BaseClassifier in AdaBoostClassifier ensemble is worse than random, ensemble can not be fit.",,,Abalone19,threshold_optimization,all,other,error,2

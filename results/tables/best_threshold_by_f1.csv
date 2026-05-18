@@ -1,0 +1,6 @@
+dataset,scenario,method,strategy_group,strategy,threshold,f1
+synthetic_base,threshold_optimization,RF (balanced_subsample),ghost,ghost_f1,0.25,0.8703071672354948
+Credit Card Fraud Detection,threshold_optimization,Borderline-SMOTE + RF,validation_optimized,validation_best_mcc,0.4,0.8602150537634409
+Mammography,threshold_optimization,SMOTE-Tomek + RF,train_optimized,train_best_g_mean,0.42000000000000004,0.7577639751552795
+AID362 PubChem Bioassay,threshold_optimization,RF (balanced_subsample),ghost,ghost_f1,0.18,0.5384615384615384
+Abalone19,threshold_optimization,Borderline-SMOTE + RF,ghost,ghost_g_mean,0.26,0.22857142857142856

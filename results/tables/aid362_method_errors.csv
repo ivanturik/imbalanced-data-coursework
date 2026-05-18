@@ -1,0 +1,2 @@
+dataset,method,threshold,balanced_accuracy,precision,recall,f1,g_mean,mcc,roc_auc,pr_auc,accuracy,tn,fp,fn,tp,status
+AID362 PubChem Bioassay,RUSBoost,0.5,,,,,,,,,,,,,,"error: ValueError: BaseClassifier in AdaBoostClassifier ensemble is worse than random, ensemble can not be fit."

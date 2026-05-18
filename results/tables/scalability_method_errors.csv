@@ -1,0 +1,2 @@
+method,threshold,accuracy,balanced_accuracy,precision,recall,f1,specificity,g_mean,mcc,tn,fp,fn,tp,status,roc_auc,pr_auc,dataset,scenario,experiment,n_samples,ir,seed,fit_sec,predict_sec,total_sec
+RUSBoost,,,,,,,,,,,,,,"error: ValueError: BaseClassifier in AdaBoostClassifier ensemble is worse than random, ensemble can not be fit.",,,synthetic_scalability,n_samples=5000,scalability,5000,10,1,,,

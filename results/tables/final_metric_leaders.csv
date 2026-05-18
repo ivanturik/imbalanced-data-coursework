@@ -1,0 +1,73 @@
+metric,rank,method,dataset,scenario,value,source
+pr_auc,1,Random Oversampling + RF,synthetic,clean_IR=10:1,0.9698443533457044,synthetic_repeated
+pr_auc,2,SMOTE-Tomek + RF,synthetic,clean_IR=10:1,0.9664958938056148,synthetic_repeated
+pr_auc,3,SMOTE + RF,synthetic,clean_IR=10:1,0.9664958938056148,synthetic_repeated
+f1,1,SMOTE-ENN + RF,synthetic,clean_IR=10:1,0.8904593639575972,synthetic_repeated
+f1,2,SMOTE-Tomek + RF,synthetic,clean_IR=10:1,0.8848920863309353,synthetic_repeated
+f1,3,SMOTE + RF,synthetic,clean_IR=10:1,0.8848920863309353,synthetic_repeated
+recall,1,Random Undersampling + RF,synthetic,clean_IR=50:1,0.9333333333333332,synthetic_repeated
+recall,2,Random Undersampling + RF,synthetic,overlap_feature_noise_IR=10:1,0.9266666666666666,synthetic_repeated
+recall,3,Random Undersampling + RF,synthetic,clean_IR=10:1,0.92,synthetic_repeated
+precision,1,RF (balanced_subsample),synthetic,clean_IR=10:1,1.0,synthetic_repeated
+precision,2,Baseline RF,synthetic,clean_IR=50:1,1.0,synthetic_repeated
+precision,3,RF (balanced_subsample),synthetic,clean_IR=50:1,1.0,synthetic_repeated
+mcc,1,SMOTE-ENN + RF,synthetic,clean_IR=10:1,0.8821297319738161,synthetic_repeated
+mcc,2,SMOTE-Tomek + RF,synthetic,clean_IR=10:1,0.8776548915002095,synthetic_repeated
+mcc,3,SMOTE + RF,synthetic,clean_IR=10:1,0.8776548915002095,synthetic_repeated
+g_mean,1,Random Undersampling + RF,synthetic,clean_IR=10:1,0.932909427543746,synthetic_repeated
+g_mean,2,Random Undersampling + RF,synthetic,overlap_feature_noise_IR=10:1,0.9256661265152668,synthetic_repeated
+g_mean,3,Balanced Random Forest,synthetic,clean_IR=10:1,0.923240669237081,synthetic_repeated
+pr_auc,1,SMOTE + RF,Credit Card Fraud Detection,real_repeated_split,0.8859114592481275,real_repeated
+pr_auc,2,ADASYN + RF,Credit Card Fraud Detection,real_repeated_split,0.8805679209439977,real_repeated
+pr_auc,3,Random Oversampling + RF,Credit Card Fraud Detection,real_repeated_split,0.8793842401819512,real_repeated
+f1,1,Borderline-SMOTE + RF,Credit Card Fraud Detection,real_repeated_split,0.8850174216027874,real_repeated
+f1,2,Baseline RF,Credit Card Fraud Detection,real_repeated_split,0.8825622775800712,real_repeated
+f1,3,RF (balanced_subsample),Credit Card Fraud Detection,real_repeated_split,0.8817204301075269,real_repeated
+recall,1,EasyEnsemble,Abalone19,real_repeated_split,1.0,real_repeated
+recall,2,Random Undersampling + RF,AID362 PubChem Bioassay,real_repeated_split,0.9444444444444444,real_repeated
+recall,3,EasyEnsemble,Credit Card Fraud Detection,real_repeated_split,0.9391891891891893,real_repeated
+precision,1,Baseline RF,AID362 PubChem Bioassay,real_repeated_split,1.0,real_repeated
+precision,2,RF (balanced_subsample),AID362 PubChem Bioassay,real_repeated_split,1.0,real_repeated
+precision,3,Random Oversampling + RF,Credit Card Fraud Detection,real_repeated_split,0.9649122807017544,real_repeated
+mcc,1,Borderline-SMOTE + RF,Credit Card Fraud Detection,real_repeated_split,0.8852610220199757,real_repeated
+mcc,2,Baseline RF,Credit Card Fraud Detection,real_repeated_split,0.8836334034442028,real_repeated
+mcc,3,RF (balanced_subsample),Credit Card Fraud Detection,real_repeated_split,0.8831740821641247,real_repeated
+g_mean,1,Class weight LogisticRegression,Credit Card Fraud Detection,real_repeated_split,0.9566588045563444,real_repeated
+g_mean,2,EasyEnsemble,Credit Card Fraud Detection,real_repeated_split,0.9530031742611657,real_repeated
+g_mean,3,EasyEnsemble,Credit Card Fraud Detection,real_repeated_split,0.9518412814877348,real_repeated
+pr_auc,1,Baseline RF,synthetic,label_noise:flip_y=0.0,0.7896943787787615,synthetic_label_noise
+pr_auc,2,Random Oversampling + RF,synthetic,label_noise:flip_y=0.0,0.7747988108400751,synthetic_label_noise
+pr_auc,3,RF (balanced_subsample),synthetic,label_noise:flip_y=0.0,0.7693562044851037,synthetic_label_noise
+f1,1,SMOTE + RF,synthetic,label_noise:flip_y=0.0,0.6666666666666666,synthetic_label_noise
+f1,2,SMOTE-Tomek + RF,synthetic,label_noise:flip_y=0.0,0.6666666666666666,synthetic_label_noise
+f1,3,ADASYN + RF,synthetic,label_noise:flip_y=0.0,0.6666666666666666,synthetic_label_noise
+recall,1,Random Undersampling + RF,synthetic,label_noise:flip_y=0.0,0.9333333333333332,synthetic_label_noise
+recall,2,Random Undersampling + RF,synthetic,label_noise:flip_y=0.0,0.9111111111111112,synthetic_label_noise
+recall,3,Class weight LogisticRegression,synthetic,label_noise:flip_y=0.0,0.9,synthetic_label_noise
+precision,1,Baseline RF,synthetic,label_noise:flip_y=0.0,1.0,synthetic_label_noise
+precision,2,RF (balanced_subsample),synthetic,label_noise:flip_y=0.0,1.0,synthetic_label_noise
+precision,3,Random Oversampling + RF,synthetic,label_noise:flip_y=0.0,1.0,synthetic_label_noise
+mcc,1,SMOTE-Tomek + RF,synthetic,label_noise:flip_y=0.0,0.6794075521331602,synthetic_label_noise
+mcc,2,SMOTE + RF,synthetic,label_noise:flip_y=0.0,0.6794075521331602,synthetic_label_noise
+mcc,3,ADASYN + RF,synthetic,label_noise:flip_y=0.0,0.6754444207800624,synthetic_label_noise
+g_mean,1,Random Undersampling + RF,synthetic,label_noise:flip_y=0.0,0.9090165626164968,synthetic_label_noise
+g_mean,2,Balanced Random Forest,synthetic,label_noise:flip_y=0.0,0.907589399738956,synthetic_label_noise
+g_mean,3,Class weight LogisticRegression,synthetic,label_noise:flip_y=0.0,0.8887069258197552,synthetic_label_noise
+pr_auc,1,Baseline RF,synthetic,feature_noise:feature_noise_std=0.2,0.7933806852795912,synthetic_feature_noise
+pr_auc,2,Baseline RF,synthetic,feature_noise:feature_noise_std=0.1,0.7905932113330729,synthetic_feature_noise
+pr_auc,3,Baseline RF,synthetic,feature_noise:feature_noise_std=0.05,0.7905154029322301,synthetic_feature_noise
+f1,1,SMOTE-ENN + RF,synthetic,feature_noise:feature_noise_std=0.2,0.7051282051282052,synthetic_feature_noise
+f1,2,SMOTE-ENN + RF,synthetic,feature_noise:feature_noise_std=0.05,0.7051282051282052,synthetic_feature_noise
+f1,3,SMOTE + RF,synthetic,feature_noise:feature_noise_std=0.0,0.6666666666666666,synthetic_feature_noise
+recall,1,Random Undersampling + RF,synthetic,feature_noise:feature_noise_std=0.0,0.9333333333333332,synthetic_feature_noise
+recall,2,Random Undersampling + RF,synthetic,feature_noise:feature_noise_std=0.05,0.9333333333333332,synthetic_feature_noise
+recall,3,Random Undersampling + RF,synthetic,feature_noise:feature_noise_std=0.1,0.9333333333333332,synthetic_feature_noise
+precision,1,Baseline RF,synthetic,feature_noise:feature_noise_std=0.0,1.0,synthetic_feature_noise
+precision,2,RF (balanced_subsample),synthetic,feature_noise:feature_noise_std=0.0,1.0,synthetic_feature_noise
+precision,3,Random Oversampling + RF,synthetic,feature_noise:feature_noise_std=0.0,1.0,synthetic_feature_noise
+mcc,1,SMOTE-ENN + RF,synthetic,feature_noise:feature_noise_std=0.2,0.7088816985925575,synthetic_feature_noise
+mcc,2,SMOTE-ENN + RF,synthetic,feature_noise:feature_noise_std=0.05,0.7088816985925575,synthetic_feature_noise
+mcc,3,SMOTE + RF,synthetic,feature_noise:feature_noise_std=0.0,0.6794075521331602,synthetic_feature_noise
+g_mean,1,Balanced Random Forest,synthetic,feature_noise:feature_noise_std=0.1,0.925418824100742,synthetic_feature_noise
+g_mean,2,Balanced Random Forest,synthetic,feature_noise:feature_noise_std=0.05,0.9180763571353224,synthetic_feature_noise
+g_mean,3,Random Undersampling + RF,synthetic,feature_noise:feature_noise_std=0.05,0.909241985202136,synthetic_feature_noise

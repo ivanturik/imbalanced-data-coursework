@@ -1,0 +1,7 @@
+dataset,scenario,experiment,ir,seed,sampling_strategy,train_minority_majority_ratio_before,train_ir_actual,k_neighbors,method,status,threshold,accuracy,balanced_accuracy,precision,recall,f1,specificity,g_mean,mcc,tn,fp,fn,tp,roc_auc,pr_auc
+synthetic,IR=10:1,adaptive_sampling_strategy,10,0,0.05,0.1,10.0,5,SMOTE + RF,skipped: sampling_strategy <= current minority/majority ratio,,,,,,,,,,,,,,,
+synthetic,IR=10:1,adaptive_sampling_strategy,10,0,0.1,0.1,10.0,5,SMOTE + RF,skipped: sampling_strategy <= current minority/majority ratio,,,,,,,,,,,,,,,
+synthetic,IR=10:1,adaptive_sampling_strategy,10,1,0.05,0.1,10.0,5,SMOTE + RF,skipped: sampling_strategy <= current minority/majority ratio,,,,,,,,,,,,,,,
+synthetic,IR=10:1,adaptive_sampling_strategy,10,1,0.1,0.1,10.0,5,SMOTE + RF,skipped: sampling_strategy <= current minority/majority ratio,,,,,,,,,,,,,,,
+synthetic,IR=10:1,adaptive_sampling_strategy,10,2,0.05,0.1,10.0,5,SMOTE + RF,skipped: sampling_strategy <= current minority/majority ratio,,,,,,,,,,,,,,,
+synthetic,IR=10:1,adaptive_sampling_strategy,10,2,0.1,0.1,10.0,5,SMOTE + RF,skipped: sampling_strategy <= current minority/majority ratio,,,,,,,,,,,,,,,
