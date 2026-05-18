@@ -7,94 +7,71 @@
 
 ---
 
-## Быстрый запуск проекта
+## Быстрый запуск
 
-Для воспроизведения экспериментов рекомендуется использовать виртуальное окружение Python.
-
-### 1. Клонирование репозитория
+### 1. Клонировать репозиторий
 
 ```bash
 git clone https://github.com/ivanturik/imbalanced-data-coursework.git
 cd imbalanced-data-coursework
 ```
 
-### 2. Скачивание данных
+### 2. Скачать датасеты
 
-Полный архив с датасетами доступен во вкладке **Releases**:
+Архив с данными доступен в разделе **Releases**:
 
 ```text
 https://github.com/ivanturik/imbalanced-data-coursework/releases/latest
 ```
 
-Необходимо скачать архив `data.zip` из релиза **All datasets** и распаковать его в корень проекта так, чтобы получилась структура:
+Нужно скачать архив `data.zip` из релиза **All datasets** и распаковать его так, чтобы CSV-файлы оказались в папке `data/`.
+
+Ожидаемая структура после распаковки:
 
 ```text
 imbalanced-data-coursework/
 ├── data/
 │   ├── creditcard.csv
-│   └── ...
+│   ├── mammography.csv
+│   ├── abalone19.csv
+│   ├── AID362red_train.csv
+│   └── AID362red_test.csv
 ├── imbalanced-data.ipynb
 ├── requirements.txt
 └── README.md
 ```
 
----
+### 3. Создать виртуальное окружение и установить зависимости
 
-## Запуск на Windows
-
-### Создание виртуального окружения
+Для Windows:
 
 ```bash
 python -m venv .venv
-```
-
-### Активация виртуального окружения
-
-```bash
-.venv\Scripts\activate
-```
-
-### Установка зависимостей
-
-```bash
+.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 ```
 
-### Запуск notebook
+Если PowerShell запрещает активацию окружения, можно выполнить:
 
-```bash
-jupyter notebook imbalanced-data.ipynb
+```powershell
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
 
-или:
+Затем снова:
 
-```bash
-jupyter lab imbalanced-data.ipynb
+```powershell
+.venv\Scripts\Activate.ps1
 ```
 
----
-
-## Запуск на Linux
-
-### Создание виртуального окружения
+Для Linux и macOS:
 
 ```bash
 python3 -m venv .venv
-```
-
-### Активация виртуального окружения
-
-```bash
 source .venv/bin/activate
-```
-
-### Установка зависимостей
-
-```bash
 pip install -r requirements.txt
 ```
 
-### Запуск notebook
+### 4. Запустить notebook
 
 ```bash
 jupyter notebook imbalanced-data.ipynb
@@ -106,51 +83,11 @@ jupyter notebook imbalanced-data.ipynb
 jupyter lab imbalanced-data.ipynb
 ```
 
----
-
-## Запуск на macOS
-
-### Создание виртуального окружения
-
-```bash
-python3 -m venv .venv
-```
-
-### Активация виртуального окружения
-
-```bash
-source .venv/bin/activate
-```
-
-### Установка зависимостей
-
-```bash
-pip install -r requirements.txt
-```
-
-### Запуск notebook
-
-```bash
-jupyter notebook imbalanced-data.ipynb
-```
-
-или:
-
-```bash
-jupyter lab imbalanced-data.ipynb
-```
-
----
-
-## Полное воспроизведение результатов
-
-После открытия notebook рекомендуется выполнить все ячейки последовательно:
+Для полного воспроизведения результатов рекомендуется выполнить все ячейки последовательно:
 
 ```text
 Kernel → Restart Kernel and Run All Cells
 ```
-
-Итоговые таблицы и графики сохраняются в папку `results/`.
 
 ---
 
@@ -161,7 +98,7 @@ Kernel → Restart Kernel and Run All Cells
 ├── imbalanced-data.ipynb        # основной notebook с экспериментами
 ├── requirements.txt             # список зависимостей Python
 ├── data/
-│   └── .gitkeep                 # пустая папка для распаковки данных
+│   └── .gitkeep                 # пустая папка для распаковки датасетов
 ├── results/
 │   ├── figures/                 # графики, heatmap и матрицы ошибок
 │   └── tables/                  # итоговые таблицы с результатами
@@ -175,9 +112,9 @@ Kernel → Restart Kernel and Run All Cells
 
 Работа посвящена исследованию методов обработки несбалансированных данных в задачах бинарной классификации.
 
-В задачах такого типа один класс представлен значительно большим числом объектов, чем другой. Из-за этого стандартные классификаторы могут смещаться в сторону класса большинства и плохо распознавать редкие, но важные объекты.
+В задачах такого типа один класс представлен значительно большим числом объектов, чем другой. Из-за этого стандартные классификаторы могут смещаться в сторону класса большинства и плохо распознавать редкие, но важные объекты класса меньшинства.
 
-В проекте сравниваются методы, которые позволяют уменьшить влияние дисбаланса классов и повысить качество распознавания класса меньшинства.
+В проекте сравниваются методы, которые позволяют уменьшить влияние дисбаланса классов и повысить качество классификации.
 
 ---
 
@@ -261,7 +198,7 @@ Kernel → Restart Kernel and Run All Cells
 
 ## Результаты
 
-Все результаты сохраняются в папку `results/`.
+Итоговые таблицы и графики сохраняются в папку `results/`.
 
 Графики, heatmap и матрицы ошибок находятся в:
 
@@ -296,9 +233,11 @@ results/tables/
 - `matplotlib`;
 - `seaborn`;
 - `scipy`;
-- `jupyter`;
-- `openpyxl`.
+- `jupyter`.
 
 Полный список зависимостей находится в файле `requirements.txt`.
 
 ---
+Белорусский государственный университет  
+Факультет прикладной математики и информатики  
+2026
